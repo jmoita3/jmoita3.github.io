@@ -8,7 +8,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 .main-header{
     color: white;
-    background-color: red;
+    background-color: #5F9EA0;
     border-radius: 15px;
     padding: 1px 100px 1px 100px;
     position: relative;
@@ -42,7 +42,7 @@ footer{
     clear: both;
 }
 .main-footer{
-    background-color: red;
+    background-color: #5F9EA0;
     color: white;
     border-radius: 8px;
     padding: 5px 50px;
