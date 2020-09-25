@@ -22,10 +22,6 @@ h1, h2, h3, h4, h5, h6{
 }
 .main-header img{
     max-width: 200px;
-    position:absolute;
-    right: 1rem;
-    top:2rem;
-    box-shadow: 0 0 15px black;
 }
 .second-header{
     border-bottom: solid black;
