@@ -127,3 +127,21 @@ header h1{
         grid-column: 3/4;
     }
 }
+footer{
+    clear: both;
+}
+.main-footer{
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+    color: white;
+    border-radius: 8px;
+    padding: 5px 50px;
+    text-align: center;
+    line-height: 8px;
+}
+.main-footer a{
+    color: white;
+}
+.second-p{
+    color: yellow;
+}
