@@ -1,0 +1,116 @@
+body{
+    font-family: "open sans", sans-serif;
+    margin: 0 auto;
+    background-image: url("https://cdn.glitch.com/4032061f-20f0-443b-9fdf-bd07cf7d7877%2Ftopography.svg?v=1591672386015"),
+	linear-gradient(to right, #86fde8, #acb6e5);
+     background-attachment: fixed;
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  
+    
+    
+}
+img{
+    width: 100%;
+    height: auto;
+}
+header{
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+    color:white;
+    line-height: 1rem;
+    padding-top:1px;
+    padding-bottom: 1px;;
+    text-align: center;
+}
+header h1{
+    line-height: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main-section{
+    background-color: #2b4162;
+    background-image: linear-gradient(255deg, #2b4162 0%, #12100e 74%);
+    padding:0px;
+    padding-top: 20px;
+    border-radius: 8px;
+}
+.main-section p{
+    color: white;
+    margin:20px;
+}
+.company-title{
+    color: white;
+    margin: 10px;
+    padding-top: 20px;
+}
+.title-banner{
+    padding-top: 10px;
+    margin-bottom: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    background-image: url("https://cdn.glitch.com/4032061f-20f0-443b-9fdf-bd07cf7d7877%2Ftopography.svg?v=1591672386015"),
+	linear-gradient(to right, #86fde8, #acb6e5);
+     background-attachment: fixed;
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  
+}
+.title-banner h2{
+    margin-top: -7px;
+}
+.title-banner, .company-title{
+    text-align: center;
+}
+@media screen and (max-width:420px){
+    .main-section{
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width:420px) and (max-width:719px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    main{
+        display: grid;
+        grid-gap: 10px;
+    }
+    .white-space{
+        grid-column: 1/2;
+
+        margin-left: 10px;
+    }
+    .contrast{
+        grid-column: 2/3;
+
+        margin-right: 10px;
+    }
+    .repetition{
+        grid-column: 1/3;
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width:720px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        max-width: 960px;
+    }
+    main{
+        display: grid;
+        grid-gap: 10px;
+    }
+    .white-space{
+        grid-column: 1/2;
+    }
+    .contrast{
+        grid-column: 2/3;
+    }
+    .repetition{
+        grid-column: 3/4;
+    }
+}
