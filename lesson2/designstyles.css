@@ -5,10 +5,23 @@ body{
 	linear-gradient(to right, #86fde8, #acb6e5);
      background-attachment: fixed;
     background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  
-    
-    
+}
+.main-section{
+    text-align: center;
+}
+.main-section p{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: #86fde8;
+    font-size: 10px;
+}
+a:hover{
+    color: red;
 }
 img{
+    padding-top: 10px;
     width: 100%;
     height: auto;
 }
