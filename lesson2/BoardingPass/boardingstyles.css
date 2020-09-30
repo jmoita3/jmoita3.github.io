@@ -1,0 +1,62 @@
+body{
+    background-color: gray;
+}
+main{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    max-width: 90%;
+    background-color: white;
+    border-radius: 20px;
+}
+.title{
+    color:#052139;
+}
+.title img{
+    margin-top: 10px;
+}
+.mobp{
+    margin-top: -5px;
+    font-size: 8px;
+    margin-left: -10px;
+    color:gray;
+}
+.top{
+    background-color: #052139;
+}
+.middle{
+    background-color: lightgray;
+}
+.thanks{
+    color:#052139;
+}
+div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: blue;
+}
+h2{
+    color: white;
+}
+h3{
+    color: darkblue;
+}
+
+@media only screen and (min-width: 32.5em) {
+    main{
+        max-width: 600px;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .barcode{ 
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+    .thanks{
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+    .plane{
+        padding-top: 30%;
+    }
+}
