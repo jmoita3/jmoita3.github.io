@@ -1,5 +1,9 @@
 body{
     margin: 0 auto;
+    background-color:gray;
+}
+main{
+    background-color: white;
 }
 h1, h2, h3, h4, h5, h6, a{
     font-family: 'Merriweather Sans', sans-serif;
@@ -8,9 +12,16 @@ h1, h2, h3, h4, h5, h6, a{
 p{
     font-family: 'Merriweather', serif;
 }
+
 header{
     background-color: lightgreen;
     padding:10px 0px;
+}
+.main-wrapper{
+    background-color: lightgray;
+    padding:20px;
+    margin-top: 20px;
+    
 }
 .navigation li{
     list-style-type: none;
@@ -23,11 +34,45 @@ main{
     max-width: 960px;
     margin: 0 auto;
 }
-
+.sec-1 h1, h2, h3, h4{
+    text-align: center;
+}
+p{
+    margin:20px;
+}
+.type-1, .type-2, .type-3, .type-4, .type-5, .type-6{
+    background-color: rgb(228, 239, 240);
+    margin:20px;
+}
+.main-colors{
+    text-align: center;
+}
+.color-title{
+    color:#77c9d4;
+    text-align: center;
+    padding-top:20px;
+}
+.color{
+    padding:10px;
+    max-width: 80%;
+    margin: 20px auto;
+}
+.color-1{
+    background-color: #77C9D4;
+}
+.color-2{
+    background-color: #57BC90;
+}
+.color-3{
+    background-color: #015249;
+}
+.color-4{
+    background-color: #A5A5AF;
+}
+.color-5{
+    background-color: #ffffff;
+}
 @media screen and (min-width:400px){
-    h1, h2, h3{
-        text-align: center;
-    }
     .navigation li{
         display: inline;
         padding:10px;    }
