@@ -1,0 +1,105 @@
+h1, h2, h3, h4, h5{
+    font-family: "Merriweather Sans", sans-serif;
+}
+body{
+    margin: 0 auto;
+}
+.main-navigation-elements li:first-child{
+    margin-left: auto;
+    margin-right: 20px;
+    padding:0;
+    width: 50px;
+    padding-bottom: 10px;
+    display: block;
+    
+}
+.main-navigation-elements{
+    text-align: center;
+    font-family: "Merriweather sans", sans-serif;
+    text-decoration: none;
+    position: relative;
+    padding:0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-color: #6EBFC2;
+}
+.main-header h1{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-right: 20px;
+    margin-bottom: -10px;
+    color: white;
+    font-weight: 900;
+}
+.main-motto h3{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 40%;
+    margin-right: 20px;
+    color:white;
+    font-weight: 100;
+}
+.main-navigation-elements li{
+    display: none;
+}
+.expand li:not(:first-child) {
+    display: block;
+    animation-duration: .8s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+    height: 1px;
+}
+.main-title{
+    background-image: linear-gradient(115deg,white 0%, white 35%, transparent 35%);
+    padding:20px;
+}
+.main-navigation{
+    background-color: #D15641;
+    padding-top: 1px;
+}
+
+
+.main-logo img{
+    max-width: 80px;
+    padding:0px;
+    position: absolute;
+    margin-top: 0px;
+} 
+.main-logo{
+    max-width: 50px;
+    margin-left: 1%;
+    margin-right: auto;
+}
+span {
+    padding:0;
+    display: block;
+    margin:4px;
+    height: 3px;
+    width: 30px;
+    background: white;
+    border-radius: 9px;
+  }
+.clicker{
+    position: absolute;
+    height: 20px;
+    top:0;
+    opacity: 0;
+}
+
+
+@keyframes slidein {
+    from {
+        height: 1px;
+        opacity: 0
+    }
+  
+    to {
+        height: 30px;
+        opacity: 1;
+    }
+  }
