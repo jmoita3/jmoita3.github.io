@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Weather Sidekick</title>
     </head>
 <body>
@@ -28,21 +29,67 @@
     </div>
     <div class="main-navigation">
         <ul class="main-navigation-elements">
-            <li class="navigation-element"><a href="#" onclick="responsive()"><span></span><span></span><span></span><span class="clicker"></span></a></li>
-            <li class="navigation-element"><a href="#">Home</a></li>
-            <li class="navigation-element"><a href="#">Preston</a></li>
-            <li class="navigation-element"><a href="#">Soda Springs</a></li>
-            <li class="navigation-element"><a href="#">Fish Haven</a></li>
-            <li class="navigation-element"><a href="#">Storm Center</a></li>
-            <li class="navigation-element"><a href="#">Gallery</a></li>
+            <li class="navigation-element nav-1"><a href="#" onclick="responsive()"><span></span><span></span><span></span><span class="clicker"></span></a></li>
+            <li class="navigation-element nav-2"><a href="#">Home</a></li>
+            <li class="navigation-element nav-3"><a href="#">Preston</a></li>
+            <li class="navigation-element nav-4"><a href="#">Soda Springs</a></li>
+            <li class="navigation-element nav-5"><a href="#">Fish Haven</a></li>
+            <li class="navigation-element nav-6"><a href="#">Storm Center</a></li>
+            <li class="navigation-element nav-7"><a href="#">Gallery</a></li>
         </ul>
     </div>
 </header>
 <main>
-
+    <div class="preston-title-wrapper">
+        <h2 class="preston-title">
+            PRESTON, IDAHO
+        </h2>
+    </div>
+    <div class="weather-summary-wrapper">
+        <h2 class="weather-summary-title">
+            Weather Summary
+        </h2>
+        <p class="weather-summary-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsum optio earum quas, 
+            exercitationem sapiente quidem dignissimos ipsam laboriosam delectus vel similique voluptatem
+            praesentium quasi, cupiditate aliquam eum iure nulla.
+        </p>
+    </div>
+    <div class="five-day-wrapper">
+        <div class="five-day-title-wrapper">
+            <h2 class="five-day-title">
+                Five Day Forecast
+            </h2>
+        </div>
+        <div class="article-wrapper">
+            <h3 class="article-title">Article Title</h3>
+            <p class="article-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni a asperiores recusandae!
+                 Quis, in saepe quaerat ratione iure aspernatur possimus voluptatibus! Eum aut eaque, 
+                 unde placeat saepe nobis eos consectetur.
+            </p>
+            <img src="images/sky.jpg" alt="the sky">
+        </div>
+    </div>
 </main>
 <footer>
-
+    <div class="contact-wrapper">
+        <h3 class="contact-title">
+            Contact Information
+        </h3>
+        <div class="mail-contact">
+            <p><i class="fa fa-envelope"></i> Joaomoita3@hotmail.com</p>
+        </div>
+        <div class="phone-contact">
+            <p><i class="fa fa-phone"></i> (209)247-5529</p>
+        </div>
+    </div>
+    <div class="map-wrapper">
+        <img src="" alt="">
+    </div>
+    <div class="main-footer-bar">
+        <p>&#169; <span id="copyYear"></span> | Joao F. Moita | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p class="second-p">Last updated:<span id="lastUpdated"></span></p>
+    </div>
 </footer>
 </body>
 </html>
