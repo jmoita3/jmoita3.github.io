@@ -149,9 +149,11 @@ header{
     background-image: linear-gradient(to right bottom, rgba(128, 208, 211, 0.8), rgba(88, 139, 143, 0.8)), url(../images/mountains.jpg);
     background-size: cover;
     height: 120px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
 }
 .preston-title{
-    padding-top: 45px;
+    grid-row: 2/3;
     text-align: center;
     color:white;
     text-shadow: 0px 1px 6px #194247;
@@ -222,7 +224,8 @@ grid-template-columns: repeat(5,1fr);
     padding:20px;
 }
 .article-wrapper img{
-    max-width: 100%;
+    max-width: 80%;
+    padding: 0px 30px 30px 30px;
 }
 .article-title{
     color: #6EBFC2;
@@ -253,6 +256,7 @@ font-size: 24px;
 .map-wrapper img{
     max-width: 100%;
 }
+
 .main-footer-bar{
     background-color: #6EBFC2;
     padding:20px;
@@ -292,8 +296,18 @@ font-size: 24px;
 }
 
 @media screen and (min-width: 710px){
-    .preston-title{
-        padding-top: 115px;
+    .article-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .article-title{
+        grid-column: 1/2;
+    }
+    .article-paragraph{
+        grid-column: 1/2;
+    }
+    .article-img{
+        grid-column: 2/3;
     }
     .main-logo img{
         max-width: 80px;
@@ -328,10 +342,6 @@ font-size: 24px;
     }
     .main-navigation{
         padding: 10px;
-    }
-
-    .article-wrapper img{
-        max-width: 30%;
     }
     
     .preston-title-wrapper{
