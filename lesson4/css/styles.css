@@ -189,6 +189,7 @@ grid-template-columns: repeat(5,1fr);
 }
 .day{
     background-color: white;
+    box-shadow: 3px 3px 10px #888888a9;
 }
 .day p{
     color:white;
