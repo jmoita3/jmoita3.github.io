@@ -298,6 +298,16 @@ font-size: 24px;
     
 }
 @media screen and (min-width: 600px){
+    .main-header h1{
+        font-size: 30px;
+    }
+    .main-motto h3{
+        font-size: 16px;
+    }
+    .main-logo{
+        margin-left: 80px;
+        margin-right: auto;
+    }
     .preston-title-wrapper{
         height: 200px;
     }
