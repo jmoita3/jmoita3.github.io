@@ -314,6 +314,9 @@ font-size: 24px;
     .article-img{
         grid-column: 2/3;
     }
+    .day{
+        margin:8px;
+    }
 
 }
 
