@@ -293,9 +293,14 @@ font-size: 24px;
 .social i:hover{
     filter:brightness(50%);
     transition: .4s;
-}
 
-@media screen and (min-width: 710px){
+
+    
+}
+@media screen and (min-width: 600px){
+    .preston-title-wrapper{
+        height: 200px;
+    }
     .article-wrapper{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -309,6 +314,13 @@ font-size: 24px;
     .article-img{
         grid-column: 2/3;
     }
+
+}
+
+
+
+
+@media screen and (min-width: 900px){
     .main-logo img{
         max-width: 80px;
     }
