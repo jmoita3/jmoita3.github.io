@@ -106,9 +106,8 @@ header{
 } 
 .main-logo{
     max-width: 50px;
-    margin-left: 0px;
-    margin-top: 13px;
-    margin-right: auto;
+    margin: auto;
+    margin-left: 5%;
 }
 .main-navigation-elements span {
     padding:0;
@@ -305,8 +304,11 @@ font-size: 24px;
         font-size: 16px;
     }
     .main-logo{
-        margin-left: 80px;
-        margin-right: auto;
+        margin: auto;
+        margin-right: 50%;
+    }
+    .main-logo img{
+        max-width: 70px;
     }
     .preston-title-wrapper{
         height: 200px;
@@ -338,9 +340,7 @@ font-size: 24px;
     }
     .main-logo{
         max-width: 50px;
-        margin-right: 35%;
-        margin-top: 20px;
-        margin-left: auto;
+        margin: auto;
     }
     .main-title{
         padding:0px 10px 0px 10px;
