@@ -168,7 +168,6 @@ header{
     margin: 0 auto;
 }
 .five-day-wrapper{
-    background-color: #e1f1f1;
     box-shadow: 3px 3px 10px #88888879;
 }
 .five-day-title-wrapper{
@@ -179,7 +178,11 @@ header{
 .five-day-title{
     color:white;
 }
-
+.article-wrapper{
+    margin-top: 40px;
+    background-color: #e1f1f1;
+    box-shadow: 3px 3px 10px #88888879;
+}
 .weather-forecast-wrapper{
 display: grid;
 grid-template-columns: repeat(5,1fr);
@@ -317,6 +320,7 @@ font-size: 24px;
     .article-wrapper{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        
     }
     .article-title{
         grid-column: 1/3;
@@ -383,7 +387,9 @@ font-size: 24px;
     .day{
         margin:20px;
     }
-
+    .article-wrapper{
+        margin-top: 100px;
+    }
 
 
     footer{
