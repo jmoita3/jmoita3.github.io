@@ -8,21 +8,21 @@
 	.st2{fill:url(#SVGID_2_);}
 	.st3{fill:#6FBFC2;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="414.4118" y1="234.5164" x2="960.163" y2="234.5164" gradientTransform="matrix(0.2494 0.9684 -3.4909 0.8992 972.2654 -255.3005)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="378.5744" y1="560.0538" x2="924.3301" y2="560.0538" gradientTransform="matrix(0.2494 0.9684 3.4909 -0.8992 -1792.5275 456.8659)">
 	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.3"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<path class="st0" d="M0,829c0.21-135.36,0.41-270.72,0.62-406.08C204.41,370.42,408.21,317.93,612,265.43
-	c0,187.86,0,375.71,0,563.57C408,829,204,829,0,829z"/>
-<rect x="0.21" y="645.99" class="st1" width="611.79" height="118.92"/>
+<path class="st0" d="M0,792c0.2-135.4,0.4-270.7,0.6-406.1c203.8-52.5,407.6-105,611.4-157.5c0,187.9,0,375.7,0,563.6
+	C408,792,204,792,0,792z"/>
+<rect x="0.2" y="646" class="st1" width="611.8" height="118.9"/>
 <path class="st1" d="M0,792"/>
-<path class="st1" d="M612,792c-204,0-408,0-612,0c0.59-104.68,1.19-209.37,1.78-314.05C205.19,425.56,408.59,373.16,612,320.77
-	C612,477.85,612,634.92,612,792z"/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="612" y1="320.7694" x2="612" y2="320.7694">
+<path class="st1" d="M612,755c-204,0-408,0-612,0c0.6-104.7,1.2-209.4,1.8-314C205.2,388.6,408.6,336.2,612,283.8
+	C612,440.8,612,597.9,612,755z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="612" y1="508.2303" x2="612" y2="508.2303" gradientTransform="matrix(1 0 0 -1 0 792)">
 	<stop  offset="0.1134" style="stop-color:#FFFFFF;stop-opacity:0.5"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<path class="st2" d="M612,320.77"/>
-<path class="st3" d="M612,1027.83c-204,0-408,0-612,0c0-93.17,0-186.34,0-279.51c204-13.88,408-27.77,612-41.65
-	C612,813.72,612,920.77,612,1027.83z"/>
+<path class="st2" d="M612,283.8"/>
+<path class="st3" d="M612,1027.8c-204,0-408,0-612,0c0-93.2,0-186.3,0-279.5c204-13.9,408-27.8,612-41.7
+	C612,813.7,612,920.8,612,1027.8z"/>
 </svg>
