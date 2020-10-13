@@ -55,7 +55,18 @@ footer{
     color: white;
     text-decoration: none;
 }
+.list1 p, .list2 p{
+    font-family: "Merriweather Sans", sans-serif;
+    line-height: .5rem;
 
+}
+.list1 p{
+    color: white;
+}
+.list2 p{
+    margin-left: -30px;
+    color:#fbff1d;
+}
 header{
     background-color: #6EBFC2;
 }
@@ -64,6 +75,21 @@ header{
     color: white;
     font-weight: 900;
     margin-top: 20px;
+}
+.first-section{
+    margin-bottom: 65px;
+}
+.weather-summary-paragraph{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 300px;
+}
+.list1{
+    text-align: right;
+    grid-column: 1/2;
+}
+.list2{
+    grid-column: 2/3;
 }
 .main-text{
     grid-column: 2/4;
@@ -124,6 +150,9 @@ header{
     top:0;
     opacity: 0;
 }
+.preston-title-wrapper .preston-title{
+    display: none;
+}
 .navigation-element a{
     animation-name: opac;
     animation-fill-mode: forwards;
@@ -145,38 +174,47 @@ header{
     background-position: 0 100%;
   }
 .preston-title-wrapper{
+    position: relative;
     background-image: linear-gradient(to right bottom, rgba(128, 208, 211, 0.8), rgba(88, 139, 143, 0.8)), url(../images/mountains.jpg);
     background-size: cover;
-    height: 120px;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    height: 220px;
 }
 .preston-title{
-    grid-row: 2/3;
     text-align: center;
-    color:white;
-    text-shadow: 0px 1px 6px #194247;
+    color:#6EBFC2;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .weather-summary-title{
-    color: #6EBFC2;
+    color:white;
     margin-bottom: -10px;
+    text-align: center;
 }
 .weather-summary-wrapper{
-    background-color: white;
-    padding:20px;
-    max-width: 80%;
+    position: absolute;
+    top:20px;
+    left:50px;
+    opacity: .8;
+    background-color: rgba(88, 139, 143, 0.8);
+    padding:10px 0px 10px 0px;
+    max-width: 280px;
+    box-shadow: 3px 3px 10px #00000073;
     margin: 0 auto;
 }
-.five-day-wrapper{
-    box-shadow: 3px 3px 10px #88888879;
+.list1 li{
+    background-color: brown;
 }
 .five-day-title-wrapper{
     background-color: #6EBFC2;
     text-align: center;
     padding:20px;
+    margin-bottom: 150px;
+    box-shadow: 3px 3px 10px #88888879;
 }
 .five-day-title{
-    color:white;
+    text-align: center;
+    color: #6EBFC2;
+    font-size: 30px;
 }
 .article-wrapper{
     margin-top: 40px;
@@ -315,8 +353,10 @@ font-size: 24px;
         max-width: 70px;
     }
     .preston-title-wrapper{
-        height: 200px;
+        height: 250px;
+        margin-top: 20px;
     }
+
     .article-wrapper{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -370,16 +410,43 @@ font-size: 24px;
     .main-navigation-elements li:first-child{
         display: none;
     }
+    .preston-title-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 500px 1fr;
+        grid-template-rows: repeat(3,1fr);
+        margin-top: 100px;
+    }
+    
+    .first-section{
+        padding-bottom: 100px;
+    }
+    .first-section>.preston-title{
+        display: none;
+    }
+    .preston-title-wrapper .preston-title{
+        display: inline;
+    }
+    .weather-summary-wrapper{
+        left:30px;
+    }
+    .preston-title-wrapper h1{
+        color: white;
+        grid-row: 2/3;
+        grid-column: 2/3;
+        font-size: 35px;
+    }
     .main-navigation{
         padding: 10px;
     }
     
     .preston-title-wrapper{
-        height: 300px;
-        margin-top: 100px;
+        height: 320px;
     }
-    .preston-title-wrapper h2{
+    .preston-title-wrapper h1{
+        z-index: 1;
+        text-align: center;
         font-size: 40px;
+        text-shadow: 0px 1px 6px #194247;
     }
     .weather-summary-wrapper{
         margin-bottom: 100px;
@@ -388,7 +455,7 @@ font-size: 24px;
         margin:20px;
     }
     .article-wrapper{
-        margin-top: 100px;
+        margin-top: 120px;
     }
 
 
@@ -437,4 +504,3 @@ font-size: 24px;
         opacity: 1;
     }
   }
-  

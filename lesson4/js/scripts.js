@@ -9,3 +9,9 @@ window.addEventListener("load", (event)=>{
     const cry = document.querySelector("#copyYear");
     cry.textContent = new Date().getFullYear();
 })
+
+
+$(window).scroll(function(e){
+    parallax();
+  });
+  
