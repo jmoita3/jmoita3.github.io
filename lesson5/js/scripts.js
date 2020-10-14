@@ -12,7 +12,7 @@ window.addEventListener("load", (event)=>{
 
 
 
-function showday(){
+//function showday(){
     var d = new Date();
     var days = d.getDay();
         if (days == 0) {
