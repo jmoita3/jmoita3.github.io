@@ -8,9 +8,8 @@ p{
 }
 .topBanner{
     text-align: center;
-    background: #FFB75E;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fae4c3, #fffab1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);
+    background: linear-gradient(to right, #fae4c3, #fffab1);
     
     margin-top: -18px;
     margin-bottom: -18px;
