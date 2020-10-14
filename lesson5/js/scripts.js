@@ -11,7 +11,28 @@ window.addEventListener("load", (event)=>{
 })
 
 
-$(window).scroll(function(e){
-    parallax();
-  });
-  
+
+function showday(){
+    var d = new Date();
+    var days = d.getDay();
+        if (days == 0) {
+            document.getElementsByClassName("topBanner")[0].classList.toggle("hide");
+        }
+        else if (days == 1) {
+            document.getElementsByClassName("topBanner")[0].classList.toggle("hide");
+        }
+        else if (days == 2) {
+            document.getElementsByClassName("topBanner")[0].classList.toggle("hide");
+        }
+        else if (days == 3) {
+            document.getElementsByClassName("topBanner")[0].classList.toggle("hide");
+        }
+        else if (days == 4) {
+            document.getElementsByClassName("topBanner")[0].classList.toggle("hide");
+        }
+        else if (days == 6) {
+            document.getElementsByClassName("topBanner")[0].classList.toggle("hide");
+        }
+
+    }     
+    document.getElementsByClassName("topBanner").innerHTML = showday(); 

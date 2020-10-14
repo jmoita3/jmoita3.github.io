@@ -11,7 +11,6 @@ window.addEventListener("load", (event)=>{
 })
 
 
-$(window).scroll(function(e){
-    parallax();
-  });
+var currentDate = new Date();
+document.getElementById("dateid").innerHTML = currentDate;
   
