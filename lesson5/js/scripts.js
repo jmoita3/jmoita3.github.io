@@ -37,6 +37,7 @@ function showday(){
 
     }     
 
+    
     function initMap() {
         var location = {lat: 43.81873, lng: -111.79619};
         var map = new google.maps.Map(
