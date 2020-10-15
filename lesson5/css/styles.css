@@ -411,7 +411,7 @@ font-size: 24px;
     .article-wrapper img{
         max-width: 50%;
         float: right;
-        margin:0px 0px 30px 30px;
+        margin:0px 0px 10px 30px;
         box-shadow: 3px 3px 10px #88888879;
     }
     .five-day-wrapper{
