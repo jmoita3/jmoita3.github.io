@@ -3,25 +3,25 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.75;fill:url(#SVGID_1_);}
+	.st0{opacity:0.75;fill:url(#SVGID_1_);enable-background:new    ;}
 	.st1{fill:#FFFFFF;}
 	.st2{fill:url(#SVGID_2_);}
 	.st3{fill:#6FBFC2;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="308.3106" y1="257.2062" x2="707.3106" y2="257.2062" gradientTransform="matrix(0.1235 0.7258 -0.9858 0.1678 496.4599 61.698)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="254.7715" y1="541.5287" x2="653.8064" y2="541.5287" gradientTransform="matrix(0.1235 0.7258 0.9858 -0.1678 -284.2937 194.5956)">
 	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.3"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<path class="st0" d="M0,376.5c204-34.7,408-69.4,612-104.2c0.3,99.3,0.6,198.5,1,297.8C408.4,604.9,203.8,639.7-0.7,674.6
-	C-0.5,575.2-0.3,475.8,0,376.5z"/>
+<path class="st0" d="M0,336.5c204-34.7,408-69.4,612-104.2c0.3,99.3,0.6,198.5,1,297.8C408.4,564.9,203.8,599.7-0.7,634.6
+	C-0.5,535.2-0.3,435.8,0,336.5z"/>
 <rect x="0.2" y="646" class="st1" width="611.8" height="118.9"/>
 <path class="st1" d="M0,792"/>
-<path class="st1" d="M612,755c-204,0-408,0-612,0c0.2-113,0.4-226,0.6-339c203.8-34,407.6-68,611.4-102C612,461,612,608,612,755z"/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="612" y1="283.8" x2="612" y2="283.8">
+<path class="st1" d="M612,715c-204,0-408,0-612,0c0.2-113,0.4-226,0.6-339c203.8-34,407.6-68,611.4-102C612,421,612,568,612,715z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="612" y1="548.2" x2="612" y2="548.2" gradientTransform="matrix(1 0 0 -1 0 792)">
 	<stop  offset="0.1134" style="stop-color:#FFFFFF;stop-opacity:0.5"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<path class="st2" d="M612,283.8"/>
+<path class="st2" d="M612,243.8"/>
 <path class="st3" d="M612,1027.8c-204,0-408,0-612,0c0-93.2,0-186.3,0-279.5c204-13.9,408-27.8,612-41.7
 	C612,813.7,612,920.8,612,1027.8z"/>
 </svg>

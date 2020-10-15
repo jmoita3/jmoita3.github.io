@@ -8,8 +8,9 @@ window.addEventListener("load", (event)=>{
 
     const cry = document.querySelector("#copyYear");
     cry.textContent = new Date().getFullYear();
-})
 
+    document.getElementsByClassName("topBanner").innerHTML = showday(); 
+})
 
 
 function showday(){
@@ -35,4 +36,3 @@ function showday(){
         }
 
     }     
-    document.getElementsByClassName("topBanner").innerHTML = showday(); 
