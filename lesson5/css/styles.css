@@ -311,7 +311,7 @@ grid-template-columns: repeat(5,1fr);
 
 .article-title{
     color: #6EBFC2;
-    margin-bottom: 0px;
+    margin-bottom: -15px;
 }
 .article-subtitle{
     color:#254344;
