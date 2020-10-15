@@ -300,6 +300,11 @@ grid-template-columns: repeat(5,1fr);
 .article-wrapper{
     padding:40px;
 }
+.article-wrapper p{
+    font-family: "Merriweather", serif;
+    line-height: 40px;
+    
+}
 .article-wrapper img{
     max-width: 100%;
 }
@@ -307,6 +312,9 @@ grid-template-columns: repeat(5,1fr);
 .article-title{
     color: #6EBFC2;
     margin-bottom: 0px;
+}
+.article-subtitle{
+    color:#254344;
 }
 .contact-wrapper{
     margin:30px;
@@ -328,11 +336,12 @@ font-size: 24px;
 }
 .map-wrapper{
     margin:20px;
-    margin-bottom: 80px;
-    box-shadow: 3px 3px 10px #88888879;
+    margin-bottom: 180px;
+    
 }
 .map-wrapper img{
     max-width: 100%;
+    box-shadow: 3px 3px 10px #88888879;
 }
 
 .main-footer-bar{
@@ -402,7 +411,8 @@ font-size: 24px;
     .article-wrapper img{
         max-width: 50%;
         float: right;
-        padding:0px 0px 30px 30px;
+        margin:0px 0px 30px 30px;
+        box-shadow: 3px 3px 10px #88888879;
     }
     .five-day-wrapper{
         display: block;
