@@ -316,6 +316,9 @@ grid-template-columns: repeat(5,1fr);
 .article-subtitle{
     color:#254344;
 }
+.article-paragraph a{
+    text-decoration: none;
+}
 .contact-wrapper{
     margin:30px;
 }
@@ -413,6 +416,9 @@ font-size: 24px;
         float: right;
         margin:0px 0px 10px 30px;
         box-shadow: 3px 3px 10px #88888879;
+    }
+    .article-wrapper{
+        position: relative;
     }
     .five-day-wrapper{
         display: block;
