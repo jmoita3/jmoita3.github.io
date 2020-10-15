@@ -8,21 +8,21 @@
 	.st2{fill:url(#SVGID_2_);}
 	.st3{fill:#6FBFC2;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="227.277" y1="247.0775" x2="626.3119" y2="247.0775" gradientTransform="matrix(0.1235 0.7258 -0.9858 0.1678 496.4599 61.698)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="189.8182" y1="549.6153" x2="588.8531" y2="549.6153" gradientTransform="matrix(0.1235 0.7258 0.9858 -0.1678 -284.2937 194.5956)">
 	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.3"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<path class="st0" d="M-0.1,316c204-34.7,408-69.4,612-104.2c0.3,99.3,0.6,198.5,1,297.8C408.4,544.4,203.8,579.2-0.8,614.1
-	C-0.6,514.7-0.4,415.3-0.1,316z"/>
+<path class="st0" d="M-0.1,288c204-34.7,408-69.4,612-104.2c0.3,99.3,0.6,198.5,1,297.8C408.4,516.4,203.8,551.2-0.8,586.1
+	C-0.6,486.7-0.4,387.3-0.1,288z"/>
 <rect x="0.2" y="646" class="st1" width="611.8" height="118.9"/>
 <path class="st1" d="M0,792"/>
-<path class="st1" d="M612,694.5c-204,0-408,0-612,0c0.2-113,0.4-226,0.6-339c203.8-34,407.6-68,611.4-102
-	C612,400.5,612,547.5,612,694.5z"/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="611" y1="215.65" x2="611" y2="215.65">
+<path class="st1" d="M612,666.5c-204,0-408,0-612,0c0.2-113,0.4-226,0.6-339c203.8-34,407.6-68,611.4-102
+	C612,372.5,612,519.5,612,666.5z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="611.05" y1="604.4" x2="611.05" y2="604.4" gradientTransform="matrix(1 0 0 -1 0 792)">
 	<stop  offset="0.1134" style="stop-color:#FFFFFF;stop-opacity:0.5"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<path class="st2" d="M611,215.6"/>
+<path class="st2" d="M611,187.6"/>
 <path class="st3" d="M612,1027.8c-204,0-408,0-612,0c0-93.2,0-186.3,0-279.5c204-13.9,408-27.8,612-41.7
 	C612,813.7,612,920.8,612,1027.8z"/>
 </svg>
