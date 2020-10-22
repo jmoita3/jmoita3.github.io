@@ -1,0 +1,7 @@
+.main-background{
+    height: 1000px;
+    width: 30%;
+    background-image: linear-gradient(to right bottom, rgba(36, 200, 206, 0), rgba(88, 139, 143, 0.8)), url(/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

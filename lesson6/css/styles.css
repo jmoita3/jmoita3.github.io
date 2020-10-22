@@ -23,8 +23,11 @@ p{
     line-height: 20px;
     color: rgb(48, 48, 48);
 }
-.hide{
+.topBanner{
     display: none;
+}
+.show{
+    display: block;
 }
 body{
     margin: 0 auto;
