@@ -5,3 +5,11 @@ window.addEventListener("load", (event)=>{
     const cry = document.querySelector("#copyYear");
     cry.textContent = new Date().getFullYear();
 })
+
+WebFont.load({
+    google: {
+      families: [
+         'Merriweather Sans, Merriweather'
+      ]
+    }
+  });
