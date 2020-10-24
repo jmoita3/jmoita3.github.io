@@ -456,6 +456,17 @@ font-size: 24px;
 
 }
 
+.list2 span{
+    position: relative;
+}
+.list2 span p:nth-child(2){
+    position: absolute;
+    top:0;
+    left:12px;
+}
+.list2 span:nth-child(2) p:nth-child(2){
+    left:24px;
+}
 
 
 @media screen and (min-width: 900px){

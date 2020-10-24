@@ -9,7 +9,7 @@ window.addEventListener("load", (event)=>{
 WebFont.load({
     google: {
       families: [
-         'Merriweather Sans, Merriweather'
+         'Merriweather Sans', 'Merriweather'
       ]
     }
   });
