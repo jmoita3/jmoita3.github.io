@@ -7,6 +7,6 @@ function windChill(){
     }
     else{
         document.getElementById("chills").innerHTML="N/A";
-    }
+    } 
             }
     window.onload=windChill ; 

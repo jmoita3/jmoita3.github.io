@@ -322,10 +322,11 @@ grid-template-columns: repeat(5,1fr);
 }
 .article-subtitle{
     color:#254344;
-}
+}  
+
 .article-paragraph a{
     text-decoration: none;
-}
+} 
 .contact-wrapper{
     margin:30px;
 }
