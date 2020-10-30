@@ -1,0 +1,12 @@
+.image-gallery img{
+    max-width: 100%;
+    background-color: gray;
+}
+.image-gallery{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.gallery-title{
+    text-align: center;
+}
