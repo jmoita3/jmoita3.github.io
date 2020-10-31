@@ -8,6 +8,7 @@
         <link href="css/gallerystyles.css" rel="stylesheet">
         <script src="js/lazyload.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/images.js"></script>
         <script src="js/windchill.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,8 +54,8 @@
         <h1>Some cool gallery pictures</h1>
     </div>
     <div class="image-gallery">
-        <div class="gallery-img"><img data-src="images/images/1.jpg" alt="weather1"></div>
-        <div class="gallery-img"><img data-src="images/images/2.jpg" alt="weather2"></div>
+        <div class="gallery-img"><img class="myImg" data-src="images/images/1.jpg" alt="weather1"></div>
+        <div class="gallery-img"><img class="myImg" data-src="images/images/2.jpg" alt="weather2"></div>
         <div class="gallery-img"><img data-src="images/images/3.jpg" alt="weather3"></div>
         <div class="gallery-img"><img data-src="images/images/4.jpg" alt="weather4"></div>
         <div class="gallery-img"><img data-src="images/images/5.jpg" alt="weather5"></div>
@@ -66,6 +67,19 @@
         <div class="gallery-img"><img data-src="images/images/11.jpg" alt="weather11"></div>
         <div class="gallery-img"><img data-src="images/images/12.jpg" alt="weather12"></div>
     </div>
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+  
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+    
+  
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
 </main>
 <footer>
     <div class="top-border"></div>
