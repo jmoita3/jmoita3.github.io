@@ -27,11 +27,12 @@ table {
   }
   
   tr:nth-child(even) td {
-    background-color: #e5ffeb;
+    
+    background-color: rgb(245,245,245);
   }
   
   tr:nth-child(odd) td {
-    background-color: rgb(245,245,245);
+    background-color: #e5ffeb;
   }
 tbody tr:nth-child(5) td:nth-child(3){
     color:white;
