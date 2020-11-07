@@ -1,3 +1,6 @@
+html {
+    font-family: sans-serif;
+  }
 table {
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
@@ -13,7 +16,7 @@ table {
     background-color: #618ca5;
     color:white;
   }
-  tr:first-child th:first-child{
+  thead tr:first-child th:first-child{
     background-color: #7fbac2;
     padding:0;
     color:black;
@@ -30,7 +33,7 @@ table {
   tr:nth-child(odd) td {
     background-color: rgb(245,245,245);
   }
-tr:nth-child(6) td:nth-child(3){
+tbody tr:nth-child(5) td:nth-child(3){
     color:white;
     background-color: #618ca5;
 }
