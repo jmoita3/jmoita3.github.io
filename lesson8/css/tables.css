@@ -16,7 +16,7 @@ table {
     background-color: #618ca5;
     color:white;
   }
-  thead tr:first-child th:first-child{
+  thead tr th{
     background-color: #7fbac2;
     padding:0;
     color:black;
@@ -26,7 +26,7 @@ table {
     text-align: center;
   }
   
-  tr:nth-child(even) td {
+  tr td {
     
     background-color: rgb(245,245,245);
   }
@@ -34,7 +34,7 @@ table {
   tr:nth-child(odd) td {
     background-color: #e5ffeb;
   }
-tbody tr:nth-child(5) td:nth-child(3){
+#dark{
     color:white;
     background-color: #618ca5;
 }
