@@ -1,0 +1,11 @@
+body{
+    max-width: 550px;
+    margin: 0 auto;
+}
+img{
+    background-color: red;
+    max-width:100%;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Weather site for all your weather needs">
+        <link rel="stylesheet" href="normalize.css">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/stormcenterstyles.css" rel="stylesheet">
+        <script src="js/scripts.js"></script>
+        <script src="js/windchill.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/915e4f16ed.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Climate Sidekick</title>
+    </head>
+<body> 
+    <div class="topBanner">
+        <p><b>Saturday</b> - Preston &#129374;'s in the park!
+            9:00 a.m. Friday at the city park.
+            <em>You don't want to miss it!</em>
+        </p>
+    </div>
+<header>
+    <div class="main-title">
+        <div class="main-logo">
+            <img src="images/logo.png" alt="Weather Sidekick logo" class="main-logo-image">
+        </div>
+        <div class="main-text">
+            <div class="main-header">
+                <h1>Climate Sidekick</h1>
+            </div>
+            <div class="main-motto">
+                <h3>Your trusty sidekick for all your weather needs</h3>
+            </div>
+        </div>
+    </div>
+    <div class="main-navigation">
+        <ul class="main-navigation-elements">
+            <li class="navigation-element nav-1"><a href="#" onclick="responsive()"><span></span><span></span><span></span><span class="clicker"></span></a></li>
+            <li class="navigation-element nav-2"><a href="#">Home</a></li>
+            <li class="navigation-element nav-3"><a href="preston-8.html">Preston</a></li>
+            <li class="navigation-element nav-4"><a href="#">Soda Springs</a></li>
+            <li class="navigation-element nav-5"><a href="#">Fish Haven</a></li>
+            <li class="navigation-element nav-6 current"><a href="#">Storm Center</a></li>
+            <li class="navigation-element nav-7"><a href="gallery-8.html">Gallery</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+
+
+
+</main>
+<footer>
+    <div class="top-border"></div>
+    <div class="contact-wrapper">
+        <h3 class="contact-title">
+            Contact Information
+        </h3>
+        <div class="mail-contact">
+            <p><i class="fa fa-envelope"></i><span>Joaomoita3@hotmail.com</span></p>
+        </div>
+        <div class="phone-contact">
+            <p><i class="fa fa-phone"></i> <span>(209)247-5529</span></p>
+        </div>
+        <div class="map-marker">
+            <p><i class="fa fa-map-marker"></i> <span>345 temp street, Rexburg, ID, 83440</span></p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/joaomoita3/"><i class="facebook fa fa-facebook-square"></i></a>
+            <a href="https://www.twitter.com"><i class="twitter fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/joaosdrawings/"><i class="instagram fa fa-instagram"></i></a></div>
+    </div>
+    <div class="map-wrapper">
+        <div id="map"></div>
+        <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGMyTs3cMhWp-pRbRBzXvKmnDK0EwJIU4&callback=initMap">
+        </script>
+    </div>
+    <div class="main-footer-bar">
+        <p>&#169; <span id="copyYear"></span> | Joao F. Moita | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning. </a>Last updated:<span id="lastUpdated"></span></p>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+</html>
