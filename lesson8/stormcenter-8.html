@@ -8,6 +8,7 @@
         <link href="css/stormcenterstyles.css" rel="stylesheet">
         <script src="js/scripts.js"></script>
         <script src="js/windchill.js"></script>
+        <script src="js/stormcenter.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/915e4f16ed.js" crossorigin="anonymous"></script>
@@ -64,7 +65,18 @@
 <fieldset class="secondfield">
     <legend>WEATHER INFO</legend>
     <p>Storm date</p><label class="top"> <input type="date" name="stormdate"></label>
-    <p>Storm severity </p><label class="sbs"><input type="range" name="stormrange" min="1" max="10"></label>
+    <p>Storm Type</p>
+    <label class="top"><input list="stormtype" name="stormtype">
+    <datalist id="stormtype">
+      <option value="Flash Flood">
+      <option value="Hail">
+      <option value="Hurricane">
+      <option value="Thunderstorm">
+      <option value="Tornado">
+    </datalist></label>
+    <p>Storm severity </p><label class="sbs flexy" for="rating"><input type="range" name="stormrange" 
+        id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" 
+        onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
     <p>Storm Region</p><label class="top">
     <select name="region">
         <option value="" disabled>Select Region... &#9662;</option>
@@ -123,5 +135,6 @@
     </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/stormcenter.js"></script>
 </body>
 </html>

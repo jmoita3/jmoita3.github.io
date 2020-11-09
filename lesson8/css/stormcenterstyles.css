@@ -47,7 +47,6 @@ form legend:first-child{
 }
 form legend::before{
     content: "";
- 
     border-left: 10px solid rgb(255, 255, 255);
     border-bottom: 20px solid transparent;
     border-top: 20px solid transparent;
@@ -56,8 +55,13 @@ form legend::before{
     left: 0;
 }
 .secondfield .sbs input{
-    width: 84%;
+    width: 75%;
     margin-top: 20px;
+    position: relative;
+}
+#ratingvalue{
+    margin-left: 20px;
+    font-size: 18px;
 }
 form{
     background-color: white;
