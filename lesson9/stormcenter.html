@@ -5,11 +5,10 @@
         <meta name="description" content="Weather site for all your weather needs">
         <link rel="stylesheet" href="normalize.css">
         <link href="css/styles.css" rel="stylesheet">
-        <link href="css/gallerystyles.css" rel="stylesheet">
-        <script src="js/lazyload.js"></script>
+        <link href="css/stormcenterstyles.css" rel="stylesheet">
         <script src="js/scripts.js"></script>
-        <script src="js/images.js"></script>
         <script src="js/windchill.js"></script>
+        <script src="js/stormcenter.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/915e4f16ed.js" crossorigin="anonymous"></script>
@@ -40,46 +39,70 @@
     <div class="main-navigation">
         <ul class="main-navigation-elements">
             <li class="navigation-element nav-1"><a href="#" onclick="responsive()"><span></span><span></span><span></span><span class="clicker"></span></a></li>
-            <li class="navigation-element nav-2"><a href="#">Home</a></li>
-            <li class="navigation-element nav-3"><a href="preston-8.html">Preston</a></li>
+            <li class="navigation-element nav-2"><a href="index.html">Home</a></li>
+            <li class="navigation-element nav-3"><a href="preston.html">Preston</a></li>
             <li class="navigation-element nav-4"><a href="#">Soda Springs</a></li>
             <li class="navigation-element nav-5"><a href="#">Fish Haven</a></li>
-            <li class="navigation-element nav-6"><a href="stormcenter-8.html">Storm Center</a></li>
-            <li class="navigation-element nav-7 current"><a href="#">Gallery</a></li>
+            <li class="navigation-element nav-6 current"><a href="stormcenter.html">Storm Center</a></li>
+            <li class="navigation-element nav-7"><a href="gallery.html">Gallery</a></li>
         </ul>
     </div>
 </header>
 <main>
-    <div class="gallery-title">
-        <h1>Weather gallery pictures</h1>
-    </div>
-    <div class="image-gallery">
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/1.jpg" alt="Large Tornado"></div>
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/2.jpg" alt="Cloudy day"></div>
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/3.jpg" alt="Lightning bolt"></div>
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/4.jpg" alt="Big blue tornado"></div>
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/5.jpg" alt="Snowy street"></div>
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/6.jpg" alt="Snowy spotlight"></div>
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/7.jpg" alt="Shoveling in the snow"></div>
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/8.jpg" alt="Heavy clouds"></div>
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/9.jpg" alt="Large lightning bolt"></div>
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/10.jpg" alt="Car window with water"></div>
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/11.jpg" alt="Partly cloudy day"></div>
-        <div class="gallery-img"><img class="responsiveImage" data-src="images/images/12.jpg" alt="bright sunny day"></div>
-    </div>
-    <!-- The Modal -->
-<div id="myModal" class="modal">
 
-    <!-- The Close Button -->
-    <span class="close">&times;</span>
-  
-    <!-- Modal Content (The Image) -->
-    <img class="modal-content" id="img01">
-    
-  
-    <!-- Modal Caption (Image Text) -->
-    <div id="caption"></div>
-  </div>
+
+<form method="GET" action="thanks.html">
+<fieldset class="firstfield">
+    <legend>
+        CONTACT INFO
+    </legend>
+    <p>First Name*</p><label class="top"><input type="text" name="fname" required></label>
+    <p>Last Name*</p><label class="top"><input type="text" name="Lname" required></label>
+    <p>Email*</p><label class="top"><input type="email" name="email" placeholder="someone@email.com" required></label>
+    <p>Phone</p><label class="top"><input type="tel" name="phone" placeholder="1235551234"></label>
+    <p>Zip code</p><label class="top"><input type="number" name="zip" required></label>
+</fieldset>
+<fieldset class="secondfield">
+    <legend>WEATHER INFO</legend>
+    <p>Storm date</p><label class="top"> <input type="date" name="stormdate"></label>
+    <p>Storm Type</p>
+    <label class="top"><input list="stormtype" name="stormtype">
+    <datalist id="stormtype">
+      <option value="Flash Flood">
+      <option value="Hail">
+      <option value="Hurricane">
+      <option value="Thunderstorm">
+      <option value="Tornado">
+    </datalist></label>
+    <p>Storm severity </p><label class="sbs flexy" for="rating"><input type="range" name="stormrange" 
+        id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" 
+        onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
+    <p>Storm Region</p><label class="top">
+    <select name="region">
+        <option value="" disabled>Select Region... &#9662;</option>
+        <option value="2">Preston</option>
+        <option value="3">Soda Springs</option>
+        <option value="4">Fish Haven</option>
+      </select>
+    </label>
+
+</fieldset>
+<fieldset class="thirdfield">
+    <div>Are you in any danger?</div>
+    <label class="sbs" class="choice"><input type="radio" name="audience" value="choice">Yes</label>
+    <label class="sbs" class="choice"><input type="radio" name="audience" value="choice">No</label>
+    <label class="sbs" class="choice"><input type="radio" name="audience" value="choice">Maybe</label>
+
+    <label class="top"><p>Tell us your story:</p><textarea id="story" name="story"
+        rows="15" cols="33" placeholder="It was a dark and stormy night...">
+
+</textarea></label>
+
+
+</fieldset>
+<input type="submit" value="Send weather info" class="submitBtn btn">
+</form>
+
 </main>
 <footer>
     <div class="top-border"></div>
@@ -112,5 +135,6 @@
     </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/stormcenter.js"></script>
 </body>
 </html>

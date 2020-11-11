@@ -5,9 +5,8 @@
         <meta name="description" content="Weather site for all your weather needs">
         <link rel="stylesheet" href="normalize.css">
         <link href="css/styles.css" rel="stylesheet">
-        <link href="css/thankyoustyles.css" rel="stylesheet">
-        <link href="css/stormcenterstyles.css" rel="stylesheet">
         <script src="js/scripts.js"></script>
+        <script src="js/home.js"></script>
         <script src="js/windchill.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -39,7 +38,7 @@
     <div class="main-navigation">
         <ul class="main-navigation-elements">
             <li class="navigation-element nav-1"><a href="#" onclick="responsive()"><span></span><span></span><span></span><span class="clicker"></span></a></li>
-            <li class="navigation-element nav-2"><a href="index.html">Home</a></li>
+            <li class="navigation-element nav-2 current"><a href="index.html">Home</a></li>
             <li class="navigation-element nav-3"><a href="preston.html">Preston</a></li>
             <li class="navigation-element nav-4"><a href="#">Soda Springs</a></li>
             <li class="navigation-element nav-5"><a href="#">Fish Haven</a></li>
@@ -49,11 +48,10 @@
     </div>
 </header>
 <main>
-    <div class="thankyou">
-        <h1 class="thank-you-header">Thank you for your submission!</h1>
-        <h3 class="thank-you-subheader">We will send updates to your inbox.</h3>
-        <a href="index.html"><p>Return to home page</p></a>
-    </div>
+
+
+    <div class="weathertowns"></div>
+
 </main>
 <footer>
     <div class="top-border"></div>
