@@ -52,9 +52,22 @@
 <main>
 <div class="home-header"><h1>Welcome to Climate Sidekick</h1><h2>the greatest weather site in the world.</h2></div>
     <div class="towns-wrapper">
+        <h1>Towns we cover</h1>
+        <p>Hover to view more information</p>
         <div class="weathertowns"></div>
     </div>
-
+    <div class="questions"><h1>Questions? Ask us below and we'd be happy to help!</h1></div>
+    <form method="GET" action="thanks.html">
+        <fieldset class="homefield">
+            <label><input type="text" name="name" placeholder="Name" required></label>
+            <label><input type="email" name="email" placeholder="Email" required></label>
+            <label class="messagearea"><textarea id="story" name="story"
+                 placeholder="Type your message here..."></textarea></label>
+        </fieldset>
+        <div class="button-wrapper">
+            <input type="submit" value="Ask us!" class="homebtn">
+        </div>
+    </form>
 </main>
 <footer>
     <div class="top-border"></div>
