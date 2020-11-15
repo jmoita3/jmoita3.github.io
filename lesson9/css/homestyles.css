@@ -121,10 +121,24 @@ main{
 .weathertowns a{
     text-decoration: none;
     background-color: #d1614d;
+    width: 140px;
     padding:10px 20px;
     font-family: "Merriweather sans", sans-serif;
     border-radius: 10rem;
+    transition: .4s;
+    display: block;
+    margin: 0 auto;
 }
+.weathertowns a:hover{
+    transform: translateY(-0.2rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
+}
+
+.weathertowns a:active {
+    transform: translate(-0rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+ }
+ 
 
 .weathertowns a, .weathertowns a:link, .weathertowns a:visited{
     color:white;
@@ -146,6 +160,9 @@ section{
         height: 300px;
         
     }
+    .home-header{
+        margin:50px 0px;
+    }
 
 }
 
@@ -158,7 +175,7 @@ section{
         grid-gap: 20px;
     }
     .home-header{
-        margin:150px 0px;
+        margin:100px 0px;
     }
 
 }
