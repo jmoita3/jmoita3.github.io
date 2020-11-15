@@ -51,6 +51,7 @@ window.addEventListener("load", (event)=>{
         back.appendChild(towndesc);
         back.appendChild(townyear);
         back.appendChild(townpop);
+        back.appendChild(townrain);
         back.appendChild(link);
         back.appendChild(link2);
         back.appendChild(link3);

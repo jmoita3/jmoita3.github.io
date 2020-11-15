@@ -80,16 +80,20 @@ main{
 .back{
     width: 100%;
     transform: rotateY(180deg);
+    line-height: 30px;
 }
 .back h3{
     color: #6EBFC2;
-    margin-top:80px;
+    margin-top:40px;
     margin-left: 20px;
     margin-right: 20px;
 }
 .back p:nth-child(3){
-    margin-top:-20px;
-    margin-bottom: 50px;
+    margin-top:-10px;
+    margin-bottom: -10px;
+}
+.back p:nth-child(4){
+    margin-bottom: 30px;
 }
 .weathertowns section:hover .front{
     transform: rotateY(-180deg);
