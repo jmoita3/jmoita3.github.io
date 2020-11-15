@@ -14,8 +14,6 @@ window.addEventListener("load", (event)=>{
         front.className = "front card";
         let back = document.createElement('div');
         back.className = "back card";
-        let imgwrap = document.createElement('div');
-        imgwrap.className = "imgwrap";
         let townname = document.createElement('h2');
         let towndesc = document.createElement('h3');
         let townyear = document.createElement('p');
@@ -56,8 +54,7 @@ window.addEventListener("load", (event)=>{
         back.appendChild(link);
         back.appendChild(link2);
         back.appendChild(link3);
-        front.appendChild(imgwrap);
-        imgwrap.appendChild(images);
+        front.appendChild(images);
         towninfo.appendChild(front);
         towninfo.appendChild(back);
         divWeathertowns.appendChild(towninfo);

@@ -1,9 +1,21 @@
+
 main{
     max-width: 100%;
 }
 .card h2{
     position: relative;
     z-index: 2;
+}
+.front{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(7,1fr);
+}
+.front h2{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+    min-width: 150px;
 }
 .towns-wrapper{
     background-image:linear-gradient(to right bottom, rgba(225, 247, 248, 0.87), 
@@ -37,16 +49,18 @@ main{
     box-shadow: 0 15px 40px rgba(104, 104, 104, 0.473);
 }
 .weathertowns img{
- max-width: 100%;
+ width: 100%;
+ grid-column: 1/4;
+ grid-row: 1/4;
 }
-
+.weathertowns h2{
+    color: white;
+}
 .front{
-    background-color: green;
     width: 100%;
 }
 .back{
     width: 100%;
-    background-color: yellow;
     transform: rotateY(180deg);
 }
 
@@ -58,7 +72,6 @@ main{
 }
 
 .weathertowns section:nth-child(1) .front{
-    background-color: #6EBFC2;
 }
 .weathertowns section:nth-child(1) .back{
     background-color: white;
@@ -103,7 +116,6 @@ main{
 
 }
 
-/* background-color: #6EBFC2; */
 
 
 
@@ -125,4 +137,30 @@ main{
         grid-template-columns: repeat(3, 1fr);
     }
 
+}
+
+@media screen and (max-width:962px){
+    .weathertowns img{
+        display: none;
+}
+.weathertowns section:nth-child(1) .front{
+    background-image:url("../fishhaven.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weathertowns section:nth-child(2) .front{
+    background-image:url("../preston.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weathertowns section:nth-child(3) .front{
+    background-image:url("../sodasprings.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 }
