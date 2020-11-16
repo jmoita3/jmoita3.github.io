@@ -277,7 +277,16 @@ input:required {
         margin-bottom: 0px;
         padding:50px 20px
     }
-
+    .towns-wrapper{
+        height: 1250px;
+    }
+    .questions{
+        margin-top: -600px;
+    }
+    .questions h1{
+        color:white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.603);
+    }
 }
 
 @media screen and (max-width:962px){
