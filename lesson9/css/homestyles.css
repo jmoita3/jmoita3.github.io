@@ -285,7 +285,11 @@ input:required {
     }
     .questions h1{
         color:white;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.603);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);
+    }
+    .questions h2{
+        color:white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.823);
     }
 }
 

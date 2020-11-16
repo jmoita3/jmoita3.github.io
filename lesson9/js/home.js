@@ -6,7 +6,7 @@ window.addEventListener("load", (event)=>{
     .then(response=>response.json())
     .then(jsonObject=>{
       const towns = jsonObject['towns'];
-        let towns1 = [1,4,5];
+        let towns1 = [0,4,5];
       for ( let i of towns1 ){
   
         let towninfo = document.createElement('section');
