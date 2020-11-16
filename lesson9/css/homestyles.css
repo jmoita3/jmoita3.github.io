@@ -4,6 +4,9 @@
 .home-header h1{
     font-size: 50px;
 }
+.home-header h2{
+    margin-top:-25px;
+}
 .towns-wrapper{
     text-align: center;
 }
@@ -14,6 +17,7 @@
 }
 .towns-wrapper>p{
     margin-bottom: 50px;
+    margin-top: -15px;
 }
 main{
     max-width: 100%;
