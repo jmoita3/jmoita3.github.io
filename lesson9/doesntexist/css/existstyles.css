@@ -1,0 +1,10 @@
+.weathertowns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #5fa8d9;
+    box-shadow: 5px 5px 5px #516073;
+    margin: 40px 40px;
+    padding: 10px;
+  }
+  

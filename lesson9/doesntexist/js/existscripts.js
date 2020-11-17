@@ -1,23 +1,37 @@
 window.addEventListener("load", (event)=>{
-    const requestURL = 'https://pipl.ir/v1/getPerson',
+    const requestURL = 'https://www.ahfx.com/person.php',
       divWeathertowns = document.querySelector('div.weathertowns');
 let h = new Headers({
-    "Acce"
 })
+
 
   
     fetch(requestURL)
     .then(response=>response.json())
     .then(jsonObject=>{
-      const towns = jsonObject['person'];
-        let towns1 = [0, 1, 2];
-      for ( let i of towns1 ){
-        let towninfo = document.createElement('section');
-        let townname = document.createElement('h2');
-        townname.textContent = person[i].name;
-        images.setAttribute('src', person[i].photo);
-        towninfo.appendChild(townname);
-        divWeathertowns.appendChild(towninfo);
-        }
+      const person = jsonObject['person'];
+        let personinfo = document.createElement('section');
+
+        let name = document.createElement('h2');
+        name.textContent = person.personal.name;
+        personinfo.appendChild(name);
+
+        let Password = document.createElement('h2');
+        Password.textContent = person.online_info.password;
+        personinfo.appendChild(Password);
+
+        let Email = document.createElement('h2');
+        Email.textContent = person.online_info.email;
+        personinfo.appendChild(Email);
+
+        let eyecolor = document.createElement('h2');
+        eyecolor.textContent = person.personal.eye_color;
+        personinfo.appendChild(eyecolor);
+
+        let city = document.createElement('h2');
+        city.textContent = person.personal.city;
+        personinfo.appendChild(city);
+
+        divWeathertowns.appendChild(personinfo);
       });
     })
