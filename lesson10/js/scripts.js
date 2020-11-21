@@ -19,8 +19,10 @@ function showday(){
         if (days == 5) {
             document.getElementsByClassName("topBanner")[0].classList.toggle("show");
         }
+        
 
     }     
+
 
     function initMap() {
         var location = {lat: 43.81873, lng: -111.79619};

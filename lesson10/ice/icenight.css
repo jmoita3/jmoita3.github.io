@@ -1,0 +1,19 @@
+.icenight{
+  background-image: url("../images/ICEnight.png");
+  box-shadow:2px 2px 5px black;
+  height:900px;
+  width:500px;
+  border-radius: 10px;
+}
+.icenight p{
+    text-align: center;
+    font-size:45px;
+    color:white;
+    font-family:sans-serif;
+    margin-top:30px;
+
+}
+.icenight p:nth-child(2){
+    font-size:65px;
+    margin-top:10px;
+}
