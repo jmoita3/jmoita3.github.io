@@ -42,7 +42,7 @@ window.addEventListener("load", (event)=>{
        windChill.textContent = "chill";
        windChill.setAttribute("id", "chills");
        let humidity = document.createElement("p");
-       humidity.textContent = weatherTemp.humidity;
+       humidity.textContent = weatherTemp.humidity + "%";
        let windSpeedWrapper = document.createElement("span");
        let windSpeed = document.createElement("p");
        windSpeed.textContent = wind.speed + " mph";

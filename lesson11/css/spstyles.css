@@ -1,0 +1,4 @@
+.sodasprings-wrapper{
+    background-image: linear-gradient(to right bottom, rgba(128, 208, 211, 0.8), rgba(3, 51, 73, 0.616)), url(../images/spring.jpg);
+    background-position: bottom;
+}

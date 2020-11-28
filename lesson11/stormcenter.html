@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Weather site for all your weather needs">
+        <link rel="stylesheet" href="normalize.css">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/stormcenterstyles.css" rel="stylesheet">
+        <script src="js/scroll.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="js/stormcenter.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/915e4f16ed.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Climate Sidekick</title>
+    </head>
+<body> 
+    <header id="header">
+        <div class="topBanner">
+            <p><b>Saturday</b> - Preston &#129374;'s in the park!
+                9:00 a.m. Friday at the city park.
+                <em>You don't want to miss it!</em>
+            </p>
+        </div>
+        <div class="main-title" id="title-wrapper">
+            <div class="main-logo">
+                <img src="images/logo.png" alt="Weather Sidekick logo" class="main-logo-image" id="logo">
+            </div>
+            <div class="main-text">
+                <div class="main-header">
+                    <h1 id="title">Climate Sidekick</h1>
+                </div>
+                <div class="main-motto">
+                    <h3 id="motto">Your trusty sidekick for all your weather needs</h3>
+                </div>
+            </div>
+        </div>
+        <div class="main-navigation" id="main-navigation">
+            <ul class="main-navigation-elements">
+                <li class="navigation-element nav-1"><a href="#" onclick="responsive()"><span></span><span></span><span></span><span class="clicker"></span></a></li>
+                <li class="navigation-element nav-2"><a href="index.html" >Home</a></li>
+                <li class="navigation-element nav-3"><a href="preston.html">Preston</a></li>
+                <li class="navigation-element nav-4"><a href="#">Soda Springs</a></li>
+                <li class="navigation-element nav-5"><a href="#">Fish Haven</a></li>
+                <li class="navigation-element nav-6 current"><a href="stormcenter.html">Storm Center</a></li>
+                <li class="navigation-element nav-7"><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </header>
+<main>
+
+
+<form method="GET" action="thanks.html">
+<fieldset class="firstfield">
+    <legend>
+        CONTACT INFO
+    </legend>
+    <p>First Name*</p><label class="top"><input type="text" name="fname" required></label>
+    <p>Last Name*</p><label class="top"><input type="text" name="Lname" required></label>
+    <p>Email*</p><label class="top"><input type="email" name="email" placeholder="someone@email.com" required></label>
+    <p>Phone</p><label class="top"><input type="tel" name="phone" placeholder="1235551234"></label>
+    <p>Zip code</p><label class="top"><input type="number" name="zip" required></label>
+</fieldset>
+<fieldset class="secondfield">
+    <legend>WEATHER INFO</legend>
+    <p>Storm date</p><label class="top"> <input type="date" name="stormdate"></label>
+    <p>Storm Type</p>
+    <label class="top"><input list="stormtype" name="stormtype">
+    <datalist id="stormtype">
+      <option value="Flash Flood">
+      <option value="Hail">
+      <option value="Hurricane">
+      <option value="Thunderstorm">
+      <option value="Tornado">
+    </datalist></label>
+    <p>Storm severity </p><label class="sbs flexy" for="rating"><input type="range" name="stormrange" 
+        id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" 
+        onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
+    <p>Storm Region</p><label class="top">
+    <select name="region">
+        <option value="" disabled>Select Region... &#9662;</option>
+        <option value="2">Preston</option>
+        <option value="3">Soda Springs</option>
+        <option value="4">Fish Haven</option>
+      </select>
+    </label>
+
+</fieldset>
+<fieldset class="thirdfield">
+    <div>Are you in any danger?</div>
+    <label class="sbs" class="choice"><input type="radio" name="audience" value="choice">Yes</label>
+    <label class="sbs" class="choice"><input type="radio" name="audience" value="choice">No</label>
+    <label class="sbs" class="choice"><input type="radio" name="audience" value="choice">Maybe</label>
+
+    <label class="top"><p>Tell us your story:</p><textarea id="story" name="story"
+        rows="15" cols="33" placeholder="It was a dark and stormy night...">
+
+</textarea></label>
+
+
+</fieldset>
+<input type="submit" value="Send weather info" class="submitBtn btn">
+</form>
+
+</main>
+<footer>
+    <div class="top-border"></div>
+    <div class="contact-wrapper">
+        <h3 class="contact-title">
+            Contact Information
+        </h3>
+        <div class="mail-contact">
+            <p><i class="fa fa-envelope"></i><span>Joaomoita3@hotmail.com</span></p>
+        </div>
+        <div class="phone-contact">
+            <p><i class="fa fa-phone"></i> <span>(209)247-5529</span></p>
+        </div>
+        <div class="map-marker">
+            <p><i class="fa fa-map-marker"></i> <span>345 temp street, Rexburg, ID, 83440</span></p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/joaomoita3/"><i class="facebook fa fa-facebook-square"></i></a>
+            <a href="https://www.twitter.com"><i class="twitter fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/joaosdrawings/"><i class="instagram fa fa-instagram"></i></a></div>
+    </div>
+    <div class="map-wrapper">
+        <div id="map"></div>
+        <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGMyTs3cMhWp-pRbRBzXvKmnDK0EwJIU4&callback=initMap">
+        </script>
+    </div>
+    <div class="main-footer-bar">
+        <p>&#169; <span id="copyYear"></span> | Joao F. Moita | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning. </a>Last updated:<span id="lastUpdated"></span></p>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/stormcenter.js"></script>
+</body>
+</html>
