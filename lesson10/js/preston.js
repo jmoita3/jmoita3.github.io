@@ -37,7 +37,7 @@ window.addEventListener("load", (event)=>{
        currentTemp.setAttribute("id", "text1");
        var far = weatherTemp.temp;
        var kel = far * (9/5) - 459.67;
-       currentTemp.textContent = Math.round(kel);
+       currentTemp.textContent = Math.round(kel) + "℉";
        let windChill = document.createElement("p");
        windChill.textContent = "chill";
        windChill.setAttribute("id", "chills");

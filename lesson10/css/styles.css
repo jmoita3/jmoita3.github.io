@@ -296,23 +296,15 @@ grid-template-columns: repeat(5,1fr);
 .day p{
     color:white;
 }
-.day:nth-child(1){
+.day3{
     background-image: linear-gradient(to right bottom, rgba(160, 160, 160, 0.8), rgba(128, 128, 128, 0.575)), url(../images/rainy.jpg);
     background-size: cover;
 }
-.day:nth-child(2){
-    background-image: linear-gradient(to right bottom, rgba(160, 160, 160, 0.8), rgba(128, 128, 128, 0.575)), url(../images/rainy.jpg);
-    background-size: cover;
-}
-.day:nth-child(3){
-    background-image: linear-gradient(to right bottom, rgba(160, 160, 160, 0.8), rgba(128, 128, 128, 0.575)), url(../images/rainy.jpg);
-    background-size: cover;
-}
-.day:nth-child(4){
+.day2{
     background-image: linear-gradient(to right bottom, rgba(160, 160, 160, 0.8), rgba(128, 128, 128, 0.575)), url(../images/sky.jpg);
     background-size: cover;
 }
-.day:nth-child(5){
+.day1{
     background-image: linear-gradient(to right bottom, rgba(160, 160, 160, 0.8), rgba(128, 128, 128, 0.575)), url(../images/sunny.jpg);
     background-size: cover;
 }
