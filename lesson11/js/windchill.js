@@ -10,7 +10,8 @@ fetch(apiURL2).then((response) => response.json())
 
     for ( let i = 0; i < 5; i++){
         const item = list[i];
-        
+        console.log(item);
+
         let temp1 = document.createElement("div");
         let tempday = document.createElement("p");
         let temperature = document.createElement("p");
