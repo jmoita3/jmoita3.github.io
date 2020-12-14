@@ -281,6 +281,18 @@ html {
   z-index: -1;
 }
 
+.home-subtitle {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.home-subtitle h2 {
+  font-weight: 200;
+}
+
 .home-hero-wrapper {
   background-size: cover;
   background-position: top center;
@@ -401,6 +413,14 @@ html {
 
   .button-wrapper {
     margin: auto;
+  }
+
+  .home-subtitle {
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+    max-width: 60%;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1350px) {
