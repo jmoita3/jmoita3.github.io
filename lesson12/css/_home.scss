@@ -5,8 +5,18 @@ html{
     margin: 0 auto;
     max-width: 80%;
 }
-.home-hero-wrapper{
+#hero{
     background-image: url("../images/homeHeroDesktop.jpg");
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 500px;
+    width: 100vw;
+    z-index: -1;
+}
+.home-hero-wrapper{
     background-size: cover;
     background-position: top center;
     height: 500px;
@@ -83,12 +93,18 @@ html{
     .home-hero-wrapper{
         height: 1000px;
         h2{
-            margin-top: 200px;
+            margin-top: 150px;
             font-size: 45px;
         }
         h1{
-            font-size: 75px;
+            font-size: 90px;
         }
+        p{
+            font-size: 24px;
+        }
+    }
+    #hero{
+        height:1000px;
     }
 }
 
@@ -102,6 +118,11 @@ html{
     }
     .home-hero-wrapper{
         height: 750px;
+        h1{
+            font-size: 75px;
+        }
     }
-
+    #hero{
+        height: 750px;
+    }
 }

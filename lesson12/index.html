@@ -36,7 +36,11 @@
     </div>
 </header>
 <main>
+    <div id="hero">
+
+    </div>
 <div class="home-hero-wrapper">
+    
     <div class="home-header">
         <div class="spacer">
            .
@@ -45,7 +49,7 @@
             Welcome to
         </h2>
         <h1 class="TempleInnText">
-            Temple Inn & Suites
+            Temple Inn <br>& Suites
         </h1>
         <p class="main-subtitle">
             An amazing adventure awaits you. Get started below and join us.
@@ -55,6 +59,24 @@
             </div>
     </div>
 </div>
+
+
+
+
+
+<script type="text/javascript">
+    let hero = document.getElementById("hero");
+    window.addEventListener("scroll", function(){
+        var value = window.scrollY;
+
+        hero.style.top = value * 0.5 + "px";
+
+    })
+</script>
+
+
+
+
 <div class="home-subtitle">
     <h2>
         Learn more about temple work and enjoy your stay with us. You will surely not regret it.
