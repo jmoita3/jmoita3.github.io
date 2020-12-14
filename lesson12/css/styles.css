@@ -364,16 +364,26 @@ html {
   background-image: url("/images/fountain.jpeg");
   background-size: cover;
   background-position: top;
-  height: 200px;
-  width: 200px;
+  height: 650px;
+  width: 90%;
+}
+
+.oakland-text h3 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.fountain-text h3 {
+  font-size: 35px;
+  font-weight: 400;
 }
 
 .oakland-image-wrapper {
   background-image: url("/images/oakland.jpeg");
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 200px;
+  height: 650px;
+  width: 90%;
 }
 
 @media screen and (min-width: 900px) {
@@ -422,6 +432,65 @@ html {
     max-width: 60%;
     margin: 0 auto;
   }
+
+  .fountain-image-wrapper {
+    grid-column: 2/3;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 90%;
+  }
+
+  .oakland-temple-section {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    margin-bottom: 800px;
+  }
+
+  .oakland-text {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .fountain-section {
+    margin-top: 300px;
+    margin-bottom: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+  }
+
+  .fountain-image-wrapper {
+    grid-column: 2/3;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 90%;
+  }
+
+  .oakland-temple-section {
+    position: relative;
+    margin-top: 200px;
+  }
+
+  .oakland-image-wrapper {
+    grid-column: 1/2;
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .oakland-text {
+    grid-column: 2/3;
+  }
+
+  .fountain-text {
+    grid-row: 1/2;
+    max-width: 80%;
+    margin: auto;
+    margin-top: -300px;
+    grid-column: 1/2;
+  }
 }
 @media screen and (min-width: 900px) and (max-width: 1350px) {
   .home-header {
@@ -441,6 +510,9 @@ html {
   #hero {
     height: 750px;
   }
+}
+p {
+  line-height: 32px;
 }
 
 /*# sourceMappingURL=styles.css.map */

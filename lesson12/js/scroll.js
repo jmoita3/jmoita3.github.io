@@ -9,7 +9,7 @@ function scrollFunction() {
     document.getElementById("main-navigation").style.paddingBottom = "8px"; 
     document.getElementById("logo").style.minWidth = "100px"
     document.getElementById("logo").style.marginTop = "-5px"
-    let hero = document.getElementById("hero");
+        let hero = document.getElementById("hero");
     window.addEventListener("scroll", function(){
         var value = window.scrollY;
 
