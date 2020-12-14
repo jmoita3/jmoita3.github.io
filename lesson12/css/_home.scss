@@ -1,0 +1,62 @@
+html{
+    font-family: "Raleway", sans-serif;
+}
+.home-header{
+    margin: 0 auto;
+    max-width: 80%;
+}
+.home-hero-wrapper{
+    background-image: url("../images/homeHeroDesktop.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 500px;
+    margin-top: -50px;
+}
+.welcome{
+    margin-top: 50px;
+    font-weight: 200;
+    margin-bottom: -20px;
+}
+.TempleInnText{
+    font-size: 45px;
+}
+
+.button-wrapper{
+    margin-top: 40px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10rem;
+    transition: all .2s;
+    background-color: #d1614d;
+    font-size: 20px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.homebtn{
+    color:white;
+    text-align: center;
+}
+.button-wrapper::after{
+    content:"\2B9D";
+    color:#d1614d;
+    font-size: 40px;
+    text-shadow: 3px 3px 10px black;
+    position: absolute;
+    left:60px;
+    animation: arrow 2s infinite;
+}
+.homebtn p{
+    padding-top: 10px;
+}
+.button-wrapper a{
+    text-decoration: none;
+}
+.button-wrapper:hover {
+    transform: translateY(-0.2rem);
+    cursor: pointer;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  
+    .button-wrapper:active {
+    transform: translate(-0rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }
