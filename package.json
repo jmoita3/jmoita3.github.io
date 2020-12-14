@@ -1,0 +1,23 @@
+{
+  "name": "jmoita3.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "compile:sass": "node-sass css/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmoita3/jmoita3.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmoita3/jmoita3.github.io/issues"
+  },
+  "homepage": "https://github.com/jmoita3/jmoita3.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
