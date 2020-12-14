@@ -75,3 +75,33 @@ html{
     height: 200px;
     width: 200px;
 }
+@media screen and (min-width: 900px){
+    .home-header{
+        margin-top: 100px;
+        max-width: 75%;
+    }
+    .home-hero-wrapper{
+        height: 1000px;
+        h2{
+            margin-top: 200px;
+            font-size: 45px;
+        }
+        h1{
+            font-size: 75px;
+        }
+    }
+}
+
+
+@media screen and (min-width:900px) and (max-width: 1350px){
+    .home-header{
+        margin-top: 50px;
+        h2{
+            margin-top: 150px;
+        }
+    }
+    .home-hero-wrapper{
+        height: 750px;
+    }
+
+}
