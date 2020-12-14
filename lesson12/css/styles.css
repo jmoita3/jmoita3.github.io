@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.logo-wrapper img:nth-child(2) {
+  display: none;
+}
+
 header {
   z-index: 1;
   position: relative;
@@ -37,10 +41,14 @@ body {
 }
 
 .main-navigation-elements {
-  text-align: center;
   font-family: "Merriweather sans", sans-serif;
   text-decoration: none;
   padding: 0;
+}
+
+.main-navigation-elements li {
+  text-align: right;
+  padding-right: 35px;
 }
 
 .main-navigation a {
@@ -115,6 +123,75 @@ header {
   animation-duration: 1s;
 }
 
+@media screen and (min-width: 900px) and (max-width: 1350px) {
+  .logo-wrapper img {
+    margin-left: -99px;
+  }
+
+  .main-navigation-elements {
+    margin-left: 200px;
+  }
+}
+@media screen and (min-width: 900px) {
+  header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+  }
+
+  .logo-wrapper img:nth-child(1) {
+    display: none;
+  }
+
+  .logo-wrapper img:nth-child(2) {
+    display: block;
+    position: absolute;
+    min-width: 200px;
+    top: 15px;
+    left: 10%;
+  }
+
+  .main-navigation-elements {
+    text-align: center;
+  }
+  .main-navigation-elements li {
+    display: inline;
+    text-align: center;
+  }
+  .main-navigation-elements li:first-child {
+    display: none;
+  }
+
+  .main-navigation {
+    background-image: linear-gradient(145deg, white 0%, white 25%, transparent 25%);
+    padding: 20px;
+  }
+  .main-navigation ul li {
+    position: relative;
+    padding: 0px 25px 30px 25px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .main-navigation ul:hover li:not(:hover) {
+    opacity: 0.2;
+  }
+  .main-navigation ul li::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 18%;
+    width: 64%;
+    height: 2px;
+    border-radius: 20px;
+    background: #b14431;
+    transform: scaleX(0);
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .main-navigation ul li:hover::after, .main-navigation ul li.active::after {
+    transform: scaleX(1);
+  }
+}
 @keyframes slidein {
   from {
     height: 1px;
@@ -182,7 +259,7 @@ html {
   width: 150px;
   border-radius: 10rem;
   transition: all 0.2s;
-  background-color: #d1614d;
+  background-color: #b14431;
   font-size: 20px;
   margin-bottom: 50px;
   position: relative;
@@ -195,9 +272,9 @@ html {
 
 .button-wrapper::after {
   content: "⮝";
-  color: #d1614d;
+  color: #b14431;
   font-size: 40px;
-  text-shadow: 3px 3px 10px black;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
   position: absolute;
   left: 60px;
   animation: arrow 2s infinite;
@@ -220,6 +297,22 @@ html {
 .button-wrapper:active {
   transform: translate(0rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.fountain-image-wrapper {
+  background-image: url("/images/fountain.jpeg");
+  background-size: cover;
+  background-position: top;
+  height: 200px;
+  width: 200px;
+}
+
+.oakland-image-wrapper {
+  background-image: url("/images/oakland.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 200px;
 }
 
 /*# sourceMappingURL=styles.css.map */
