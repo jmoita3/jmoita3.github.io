@@ -10,11 +10,14 @@ function scrollFunction() {
     document.getElementById("logo").style.minWidth = "100px"
     document.getElementById("logo").style.marginTop = "-5px"
         let hero = document.getElementById("hero");
+        let oakland = document.getElementById("oakland");
+        let fountain = document.getElementById("fountain");
     window.addEventListener("scroll", function(){
         var value = window.scrollY;
 
         hero.style.top = value * 0.5 + "px";
-
+        oakland.style.top = value * -.3 + "px";  
+        fountain.style.top = value * -.3 + "px";
     })
 
 } else {
