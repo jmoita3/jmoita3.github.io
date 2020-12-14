@@ -232,15 +232,32 @@ header {
 @keyframes arrow {
   0% {
     opacity: 0;
-    padding-top: 15px;
+    margin-top: 15px;
   }
   15% {
     opacity: 1;
-    padding-top: 15px;
+    margin-top: 15px;
   }
   100% {
     opacity: 0;
-    padding-top: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 900px) {
+  @keyframes arrow {
+    0% {
+      opacity: 0;
+      margin-top: -25px;
+    }
+    15% {
+      opacity: 1;
+      margin-top: -25px;
+    }
+    100% {
+      opacity: 0;
+      padding-top: 0px;
+      margin-top: -50px;
+    }
   }
 }
 html {
@@ -284,7 +301,7 @@ html {
 .button-wrapper {
   margin-top: 40px;
   height: 50px;
-  width: 150px;
+  width: 250px;
   border-radius: 10rem;
   transition: all 0.2s;
   background-color: #b14431;
@@ -304,7 +321,7 @@ html {
   font-size: 40px;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
   position: absolute;
-  left: 60px;
+  left: 110px;
   animation: arrow 2s infinite;
 }
 
@@ -325,6 +342,10 @@ html {
 .button-wrapper:active {
   transform: translate(0rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.home-content {
+  background-color: white;
 }
 
 .fountain-image-wrapper {
@@ -350,21 +371,36 @@ html {
   }
 
   .home-hero-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 400px;
     height: 1000px;
   }
   .home-hero-wrapper h2 {
+    text-align: center;
     margin-top: 150px;
     font-size: 45px;
+    grid-row: 1/2;
   }
   .home-hero-wrapper h1 {
+    margin-top: 20px;
+    text-align: center;
     font-size: 90px;
+    grid-row: 1/2;
+    margin-bottom: -20px;
   }
   .home-hero-wrapper p {
+    text-align: center;
     font-size: 24px;
+    grid-row: 1/2;
+    margin-bottom: 50px;
   }
 
   #hero {
     height: 1000px;
+  }
+
+  .button-wrapper {
+    margin: auto;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1350px) {

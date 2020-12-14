@@ -34,7 +34,7 @@ html{
 .button-wrapper{
     margin-top: 40px;
     height: 50px;
-    width: 150px;
+    width: 250px;
     border-radius: 10rem;
     transition: all .2s;
     background-color: $red;
@@ -52,7 +52,7 @@ html{
     font-size: 40px;
     text-shadow: $shadow;
     position: absolute;
-    left:60px;
+    left:110px;
     animation: arrow 2s infinite;
 }
 .homebtn p{
@@ -69,6 +69,9 @@ html{
     .button-wrapper:active {
     transform: translate(-0rem);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }
+    .home-content{
+        background-color: white;
     }
 .fountain-image-wrapper{
     background-image: url("/images/fountain.jpeg");
@@ -91,20 +94,34 @@ html{
         max-width: 75%;
     }
     .home-hero-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 400px;
         height: 1000px;
         h2{
+            text-align: center;
             margin-top: 150px;
             font-size: 45px;
+            grid-row: 1/2;
         }
         h1{
+            margin-top: 20px;
+            text-align: center;
             font-size: 90px;
+            grid-row: 1/2;
+            margin-bottom: -20px;
         }
         p{
+            text-align: center;
             font-size: 24px;
+            grid-row: 1/2;
+            margin-bottom: 50px;
         }
     }
     #hero{
         height:1000px;
+    }
+    .button-wrapper{
+        margin:auto;
     }
 }
 
