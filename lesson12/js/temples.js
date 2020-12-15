@@ -16,6 +16,7 @@ window.addEventListener("load", (event)=>{
         back.className = "back card";
         let templename = document.createElement('h2');
         let templeSummary2 = document.createElement('p');
+        templeSummary2.className = "templeSummary";
         let templePhone = document.createElement('p');
         let templeMail = document.createElement('p');
         let templeHistory = document.createElement('h3');
