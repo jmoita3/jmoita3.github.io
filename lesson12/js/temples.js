@@ -24,6 +24,7 @@ window.addEventListener("load", (event)=>{
         let templeHistory3 = document.createElement('p');
         let templerain = document.createElement('p');
         let templeOrdinance = document.createElement('p');
+        let templeSummary = document.createElement('p');
 
         let link = document.createElement("a");
         let linktext = document.createTextNode("Book Appointment");
@@ -42,6 +43,7 @@ window.addEventListener("load", (event)=>{
         templeHistory3.textContent = temples[i].history[2];
         templerain.textContent = "Services: " + temples[i].services;
         templeOrdinance.textContent = "Ordinance: " + temples[i].ordinance;
+        templeSummary.textContent = "Ordinance: " + temples[i].summary;
         front.appendChild(templename);
         back.appendChild(templeAddress);
         back.appendChild(templePhone);
@@ -56,6 +58,7 @@ window.addEventListener("load", (event)=>{
         templeinfo.appendChild(front);
         templeinfo.appendChild(back);
         divWeathertowns.appendChild(templeinfo);
+        divWeathertowns.appendChild(templeSummary);
         }
       });
     })
