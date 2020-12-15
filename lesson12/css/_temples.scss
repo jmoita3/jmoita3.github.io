@@ -13,7 +13,7 @@
         perspective: 1500px;
         -moz-perspective: 1500px;
         position: relative;
-        height: 500px;
+        height: 600px;
         max-width: 80%;
     }
     .weathertowns div{
@@ -23,7 +23,7 @@
         left:0;
         backface-visibility: hidden;
         z-index: 1;
-        height: 500px;
+        height: 600px;
         border-radius: 3px;
         box-shadow: $shadow;
     }
@@ -85,7 +85,7 @@
     @media screen and (min-width:800px){
        .weathertowns{
             display: grid;
-            grid-template-columns: 5% minmax(400px,40%) auto minmax(400px,40%) auto;
+            grid-template-columns: 5% minmax(300px,40%) auto minmax(300px,40%) auto;
             grid-gap: 5%;
         }
         .weathertowns p:nth-child(2){

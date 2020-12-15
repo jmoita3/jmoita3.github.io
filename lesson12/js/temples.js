@@ -48,10 +48,10 @@ window.addEventListener("load", (event)=>{
         back.appendChild(templeAddress);
         back.appendChild(templePhone);
         back.appendChild(templeMail);
-        back.appendChild(templeHistory);
-        back.appendChild(templeHistory1);
-        back.appendChild(templeHistory2);
-        back.appendChild(templeHistory3);
+        templeSummary.appendChild(templeHistory);
+        templeSummary.appendChild(templeHistory1);
+        templeSummary.appendChild(templeHistory2);
+        templeSummary.appendChild(templeHistory3);
         back.appendChild(templerain);
         back.appendChild(templeOrdinance);
         back.appendChild(link);
