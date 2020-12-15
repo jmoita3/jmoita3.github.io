@@ -9,56 +9,53 @@ window.addEventListener("load", (event)=>{
         let temples1 = [0,1,2,3];
       for ( let i of temples1 ){
   
-        let towninfo = document.createElement('section');
+        let templeinfo = document.createElement('section');
         let front = document.createElement('div');
         front.className = "front card";
         let back = document.createElement('div');
         back.className = "back card";
-        let townname = document.createElement('h2');
-        let towndesc = document.createElement('h3');
-        let townyear = document.createElement('p');
-        let townpop = document.createElement('p');
-        let townrain = document.createElement('p');
-        let images = document.createElement("img");
+        let templename = document.createElement('h2');
+        let templeAddress = document.createElement('h3');
+        let templePhone = document.createElement('p');
+        let templeMail = document.createElement('p');
+        let templeHistory = document.createElement('p');
+        let templeHistory1 = document.createElement('p');
+        let templeHistory2 = document.createElement('p');
+        let templeHistory3 = document.createElement('p');
+        let templerain = document.createElement('p');
+        let templeOrdinance = document.createElement('p');
+
         let link = document.createElement("a");
-        let linktext = document.createTextNode("Visit town page");
+        let linktext = document.createTextNode("Book Appointment");
         link.appendChild(linktext);
-        link.title = "Visit town page";
+        link.title = "Book Appointment";
         link.href = "#"
         link.className = "firstlink";
 
-        let link2 = document.createElement("a");
-        let linktext2 = document.createTextNode("Visit town page");
-        link2.appendChild(linktext2);
-        link2.title = "Visit town page";
-        link2.href = "preston.html"
-        link2.className = "secondlink";
-
-        let link3 = document.createElement("a");
-        let linktext3 = document.createTextNode("Visit town page");
-        link3.appendChild(linktext3);
-        link3.title = "Visit town page";
-        link3.href = "#"
-        link3.className = "thirdlink";
-
-        townname.textContent = temples[i].name;
-        towndesc.textContent = temples[i].motto;
-        townyear.textContent = "Year founded: " + temples[i].yearFounded;
-        townpop.textContent = "Population: " + temples[i].currentPopulation;
-        townrain.textContent = "Average rainfall: " + temples[i].averageRainfall;
-        images.setAttribute('src', temples[i].photo);
-        front.appendChild(townname);
-        back.appendChild(towndesc);
-        back.appendChild(townyear);
-        back.appendChild(townpop);
-        back.appendChild(townrain);
+        templename.textContent = temples[i].name;
+        templeAddress.textContent = temples[i].address[0] + ", " + temples[i].address[1] + ", " + temples[i].address[2] + ", " + temples[i].address[3];
+        templePhone.textContent = temples[i].telephone;
+        templeMail.textContent = temples[i].email;
+        templeHistory.textContent = "Notable Events:";
+        templeHistory1.textContent = temples[i].history[0];
+        templeHistory2.textContent = temples[i].history[1];
+        templeHistory3.textContent = temples[i].history[2];
+        templerain.textContent = "Services: " + temples[i].services;
+        templeOrdinance.textContent = "Ordinance: " + temples[i].ordinance;
+        front.appendChild(templename);
+        back.appendChild(templeAddress);
+        back.appendChild(templePhone);
+        back.appendChild(templeMail);
+        back.appendChild(templeHistory);
+        back.appendChild(templeHistory1);
+        back.appendChild(templeHistory2);
+        back.appendChild(templeHistory3);
+        back.appendChild(templerain);
+        back.appendChild(templeOrdinance);
         back.appendChild(link);
-        back.appendChild(link2);
-        back.appendChild(link3);
-        front.appendChild(images);
-        towninfo.appendChild(front);
-        towninfo.appendChild(back);
-        divWeathertowns.appendChild(towninfo);
+        templeinfo.appendChild(front);
+        templeinfo.appendChild(back);
+        divWeathertowns.appendChild(templeinfo);
         }
       });
     })
