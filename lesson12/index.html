@@ -131,7 +131,7 @@
                 <p><i class="fa fa-phone"></i> <span>(209)247-5529</span></p>
             </div>
             <div class="map-marker">
-                <p><i class="fa fa-map-marker"></i> <span>345 temp street, Rexburg, ID, 83440</span></p>
+                <p><i class="fa fa-map-marker"></i> <span>4800 Montgomery Ln #300, Bethesda, MD 20814</span></p>
             </div>
             <div id="map"></div>
         </div>
@@ -150,40 +150,6 @@
 
 
 
-<script lang="type/javascript">
-
-function smoothScroll(target, duration){
-    var target = document.querySelector(target);
-    var targetPosition = target.getBoundingClientRect().top;
-    var startPosition = window.pageYOffset;
-    var distance = targetPosition - startPosition;
-    var startTime = null;
-    function animation(currentTime){
-        if (startTime === null) startTime = currentTime;
-        var timeElapsed = currentTime - startTime;
-        var run = ease(timeElapsed, startPosition, distance, duration);
-        window.scrollTo(0, run);
-        if(timeElapsed < duration) requestAnimationFrame(animation);
-    }
-
-    function ease(t, b, c, d){
-        t /= d / 2;
-        if (t < 1) return c / 2 * t * t + b;
-        t--;
-        return -c / 2 * (t * (t - 2) - 1) + b;
-    }
-
-    requestAnimationFrame(animation);
-}
-
-var section1 = document.querySelector(".section1");
-
-section1.addEventListener("click", function(){
-    smoothScroll(".section2", 1000);
-});
-
-
-</script>
 
 
 
