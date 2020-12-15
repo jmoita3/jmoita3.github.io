@@ -631,10 +631,15 @@ footer {
   z-index: 1;
   height: 600px;
   border-radius: 3px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.747);
 }
 .temples-wrapper .weathertowns h2 {
   color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 45px;
+  margin-top: 250px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
 }
 .temples-wrapper .front {
   width: 100%;
@@ -660,25 +665,25 @@ footer {
   margin: 0 auto;
 }
 .temples-wrapper .weathertowns section:nth-child(1) .front {
-  background-image: url("../images/oakland.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.temples-wrapper .weathertowns section:nth-child(2) .front {
-  background-image: url("../preston.jpg");
+  background-image: url("../images/oakland-big.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .temples-wrapper .weathertowns section:nth-child(3) .front {
-  background-image: url("../sodasprings.jpg");
+  background-image: url("../images/san-diego.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.temples-wrapper .weathertowns section:nth-child(4) .front {
-  background-image: url("../sodasprings.jpg");
+.temples-wrapper .weathertowns section:nth-child(5) .front {
+  background-image: url("../images/los-angeles.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.temples-wrapper .weathertowns section:nth-child(7) .front {
+  background-image: url("../images/redlands.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -693,7 +698,6 @@ footer {
     grid-column: 3/5;
   }
   .temples-wrapper .weathertowns p:nth-child(4) {
-    background-color: red;
     grid-column: 2/4;
     grid-row: 2/3;
   }
@@ -710,7 +714,6 @@ footer {
     grid-column: 2/3;
   }
   .temples-wrapper .weathertowns section:nth-child(3) {
-    background-color: red;
     grid-column: 4/5;
   }
   .temples-wrapper .weathertowns section:nth-child(5) {

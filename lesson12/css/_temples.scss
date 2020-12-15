@@ -8,28 +8,34 @@
  .temples-wrapper{ 
     .weathertowns{
         margin: 0 auto;
+        section{
+            perspective: 1500px;
+            -moz-perspective: 1500px;
+            position: relative;
+            height: 600px;
+            max-width: 80%;
+        }
+        div{
+            transition: all .8s ease;
+            position: absolute;
+            top:0;
+            left:0;
+            backface-visibility: hidden;
+            z-index: 1;
+            height: 600px;
+            border-radius: 3px;
+            box-shadow: $shadow2;
+        }
+        h2{
+            color: white;
+            text-align: center;
+            font-weight: 400;
+            font-size: 45px;
+            margin-top: 250px;
+            text-shadow: $shadow;
+        }
     }
-    .weathertowns section{
-        perspective: 1500px;
-        -moz-perspective: 1500px;
-        position: relative;
-        height: 600px;
-        max-width: 80%;
-    }
-    .weathertowns div{
-        transition: all .8s ease;
-        position: absolute;
-        top:0;
-        left:0;
-        backface-visibility: hidden;
-        z-index: 1;
-        height: 600px;
-        border-radius: 3px;
-        box-shadow: $shadow;
-    }
-    .weathertowns h2{
-        color: white;
-    }
+    
     .front{
         width: 100%;
     }
@@ -55,27 +61,27 @@
     }
 
         .weathertowns section:nth-child(1) .front{
-            background-image:url("../images/oakland.jpeg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-    
-        .weathertowns section:nth-child(2) .front{
-            background-image:url("../preston.jpg");
+            background-image:url("../images/oakland-big.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
     
         .weathertowns section:nth-child(3) .front{
-            background-image:url("../sodasprings.jpg");
+            background-image:url("../images/san-diego.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
-        .weathertowns section:nth-child(4) .front{
-            background-image:url("../sodasprings.jpg");
+    
+        .weathertowns section:nth-child(5) .front{
+            background-image:url("../images/los-angeles.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .weathertowns section:nth-child(7) .front{
+            background-image:url("../images/redlands.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -87,42 +93,42 @@
             display: grid;
             grid-template-columns: 5% minmax(300px,40%) auto minmax(300px,40%) auto;
             grid-gap: 5%;
-        }
-        .weathertowns p:nth-child(2){
-            grid-column: 3/5;
-        }
-        .weathertowns p:nth-child(4){
-            background-color: red;
-            grid-column: 2/4;
-            grid-row: 2/3;
-        }
-        .weathertowns p:nth-child(6){
-            background-color: yellow;
-            grid-column: 3/5;
-        }
-        .weathertowns p:nth-child(8){
-            background-color: pink;
-            grid-column: 2/4;
-            grid-row: 4/5;
-        }
-        .weathertowns section:nth-child(1){
-            grid-column: 2/3;
-        }
-        .weathertowns section:nth-child(3){
-            background-color: red;
-            grid-column: 4/5;
-        }
-        .weathertowns section:nth-child(5){
-            background-color: yellow;
-            grid-column: 2/3;
-        }
-        .weathertowns section:nth-child(7){
-            background-color: pink;
-            grid-column: 4/5;
-        }
-        .weathertowns section:nth-child(7){
-            margin-bottom: 300px;
-        }
+            p:nth-child(2){
+                grid-column: 3/5;
+            }
+            p:nth-child(4){
+
+                grid-column: 2/4;
+                grid-row: 2/3;
+            }
+            p:nth-child(6){
+                background-color: yellow;
+                grid-column: 3/5;
+            }
+            p:nth-child(8){
+                background-color: pink;
+                grid-column: 2/4;
+                grid-row: 4/5;
+            }
+            section:nth-child(1){
+                grid-column: 2/3;
+            }
+            section:nth-child(3){
+                
+                grid-column: 4/5;
+            }
+            section:nth-child(5){
+                background-color: yellow;
+                grid-column: 2/3;
+            }
+            section:nth-child(7){
+                background-color: pink;
+                grid-column: 4/5;
+            }
+            section:nth-child(7){
+                margin-bottom: 300px;
+            }
+       }   
 
     }
 

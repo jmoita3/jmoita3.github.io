@@ -1,11 +1,16 @@
 {
     "temples": [
       {
-        "name": "Oakland temple",
+        "name": "Oakland",
         "address": ["4770 Lincoln Ave", "Oakland", "CA", "94602"],
         "telephone": "(510)531-3200",
         "email": "N/A",
-        "services": 17,
+        "services": [
+          "Clothing rental available",
+          "No cafeteria available",
+          "No patron housing available",
+          "Distribution center nearby"
+        ],
         "history": [
           "23 January 1961: Announced",
           "26 May 1962: Groundbreaking",
@@ -17,11 +22,16 @@
         "summary":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple."
       },
       {
-        "name": "Oakland temple",
-        "address": ["4770 Lincoln Ave", "Oakland", "CA", "94602"],
-        "telephone": "(510)531-3200",
+        "name": "San Diego",
+        "address": ["7474 Charmant Dr", "San Diego", "CA", "92122"],
+        "telephone": "(858)622-0991",
         "email": "N/A",
-        "services": 17,
+        "services": [
+          "Clothing rental available",
+          "No cafeteria available",
+          "No patron housing available",
+          "Distribution center nearby"
+        ],
         "history": [
           "23 January 1961: Announced",
           "26 May 1962: Groundbreaking",
@@ -33,11 +43,16 @@
         "summary":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple."
     },
       {
-        "name": "Oakland temple",
+        "name": "Los Angeles",
         "address": ["4770 Lincoln Ave", "Oakland", "CA", "94602"],
         "telephone": "(510)531-3200",
         "email": "N/A",
-        "services": 17,
+        "services": [
+          "Clothing rental available",
+          "No cafeteria available",
+          "No patron housing available",
+          "Distribution center nearby"
+        ],
         "history": [
           "23 January 1961: Announced",
           "26 May 1962: Groundbreaking",
@@ -49,11 +64,16 @@
         "summary":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple."
     },
       {
-        "name": "Oakland temple",
+        "name": "Redlands",
         "address": ["4770 Lincoln Ave", "Oakland", "CA", "94602"],
         "telephone": "(510)531-3200",
         "email": "N/A",
-        "services": 17,
+        "services": [
+          "Clothing rental available",
+          "No cafeteria available",
+          "No patron housing available",
+          "Distribution center nearby"
+        ],
         "history": [
           "23 January 1961: Announced",
           "26 May 1962: Groundbreaking",
