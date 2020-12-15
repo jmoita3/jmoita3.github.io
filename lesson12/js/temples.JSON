@@ -1,0 +1,68 @@
+{
+    "temples": [
+      {
+        "name": "Oakland temple",
+        "address": ["4770 Lincoln Ave", "Oakland", "CA", "94602"],
+        "telephone": "(510)531-3200",
+        "email": "N/A",
+        "services": 17,
+        "history": [
+          "23 January 1961: Announced",
+          "26 May 1962: Groundbreaking",
+          "17 November 1964: Dedicated"
+        ],
+        "ordinance":"Tuesday - Saturday, 7am - 8pm",
+        "session":"Tuesday - Saturday, 7am - 8pm",
+        "closure":"8pm Tuesday - Saturday",
+        "summary":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple."
+      },
+      {
+        "name": "Oakland temple",
+        "address": ["4770 Lincoln Ave", "Oakland", "CA", "94602"],
+        "telephone": "(510)531-3200",
+        "email": "N/A",
+        "services": 17,
+        "history": [
+          "23 January 1961: Announced",
+          "26 May 1962: Groundbreaking",
+          "17 November 1964: Dedicated"
+        ],
+        "ordinance":"Tuesday - Saturday, 7am - 8pm",
+        "session":"Tuesday - Saturday, 7am - 8pm",
+        "closure":"8pm Tuesday - Saturday",
+        "summary":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple."
+    },
+      {
+        "name": "Oakland temple",
+        "address": ["4770 Lincoln Ave", "Oakland", "CA", "94602"],
+        "telephone": "(510)531-3200",
+        "email": "N/A",
+        "services": 17,
+        "history": [
+          "23 January 1961: Announced",
+          "26 May 1962: Groundbreaking",
+          "17 November 1964: Dedicated"
+        ],
+        "ordinance":"Tuesday - Saturday, 7am - 8pm",
+        "session":"Tuesday - Saturday, 7am - 8pm",
+        "closure":"8pm Tuesday - Saturday",
+        "summary":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple."
+    },
+      {
+        "name": "Oakland temple",
+        "address": ["4770 Lincoln Ave", "Oakland", "CA", "94602"],
+        "telephone": "(510)531-3200",
+        "email": "N/A",
+        "services": 17,
+        "history": [
+          "23 January 1961: Announced",
+          "26 May 1962: Groundbreaking",
+          "17 November 1964: Dedicated"
+        ],
+        "ordinance":"Tuesday - Saturday, 7am - 8pm",
+        "session":"Tuesday - Saturday, 7am - 8pm",
+        "closure":"8pm Tuesday - Saturday",
+        "summary":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple."
+    }
+    ]
+  }

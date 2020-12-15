@@ -604,5 +604,11 @@ footer {
     margin: 50px 0px;
   }
 }
+.temple-header h1 {
+  font-size: 45px;
+  margin-top: 200px;
+  text-align: center;
+  font-weight: 200;
+}
 
 /*# sourceMappingURL=styles.css.map */
