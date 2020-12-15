@@ -121,6 +121,13 @@ html{
     text-align: center;
     font-size: 30px;
 }
+.reservation-contact a{
+    color:$blue;
+    transition: .4s;
+}
+.reservation-contact a:hover{
+    opacity:0.5;
+}
 @media screen and (min-width: 900px){
     .home-header{
         margin-top: 100px;

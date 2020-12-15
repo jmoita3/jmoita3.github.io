@@ -91,7 +91,7 @@ header {
 }
 
 .main-navigation {
-  box-shadow: 3px 3px 10px #88888879;
+  box-shadow: 3px 3px 10px #00000050;
   background-color: #072638;
   padding-top: 1px;
 }
@@ -402,6 +402,15 @@ html {
 .reservation-contact p {
   text-align: center;
   font-size: 30px;
+}
+
+.reservation-contact a {
+  color: #072638;
+  transition: 0.4s;
+}
+
+.reservation-contact a:hover {
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 900px) {
