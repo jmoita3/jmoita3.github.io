@@ -106,6 +106,21 @@ html{
     height: 650px;
     width: 90%;
 }
+.reservation-contact{
+    border-top: solid black 1px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top:100px;
+}
+.reservation-contact h2{
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+}
+.reservation-contact p{
+    text-align: center;
+    font-size: 30px;
+}
 @media screen and (min-width: 900px){
     .home-header{
         margin-top: 100px;
