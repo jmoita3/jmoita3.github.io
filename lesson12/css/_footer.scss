@@ -2,3 +2,53 @@ footer{
     background-color: $blue;
     margin-top: 250px;
 }
+#map {
+    height: 300px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+.contact-title{
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    padding-top: 50px;
+}
+.contact-info{
+    color:$lightBlue;
+    text-align: center;
+}
+.social{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.social a{
+    margin:10px;
+    color:white;
+    transition: .4s;
+}
+.social a:hover{
+    opacity: .5;
+}
+.main-footer-bar{
+    color:$lightBlue;
+    background-color: $darkBlue;
+    text-align: center;
+    padding:5px 0px;
+    margin-top: 50px;
+}
+.main-footer-bar a{
+    color:$lightBlue;
+}
+@media screen and (min-width: 900px){
+    .contact-wrapper{
+    }
+    #map{
+        margin: 50px auto;
+    }
+    .contact-info{
+        margin: 50px 0px
+    }
+}
