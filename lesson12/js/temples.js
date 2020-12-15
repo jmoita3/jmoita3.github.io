@@ -1,5 +1,5 @@
 window.addEventListener("load", (event)=>{
-    const requestURL = '../js/test.JSON',
+    const requestURL = '/js/test.JSON',
       divWeathertowns = document.querySelector('div.weathertowns');
   
     fetch(requestURL)
