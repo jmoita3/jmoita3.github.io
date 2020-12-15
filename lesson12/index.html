@@ -33,7 +33,7 @@
             <li class="navigation-element nav-3"><a href="temples.html">Temples</a></li>
             <li class="navigation-element nav-4"><a href="reservation.html">Reservation</a></li>
             <li class="navigation-element nav-5"><a href="services.html">Services</a></li>
-            <li class="navigation-element nav-6"><a href="#footer">Contact</a></li>
+            <li class="navigation-element nav-6 section1"><a>Contact</a></li>
         </ul>
     </div>
 </header>
@@ -115,7 +115,7 @@
 
 
 </main>
-<footer id="footer">
+<footer id="footer" class="section2">
     <div class="top-border"></div>
     <h3 class="contact-title">
         Contact Information
@@ -145,5 +145,49 @@
     </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+
+
+
+
+<script lang="type/javascript">
+
+function smoothScroll(target, duration){
+    var target = document.querySelector(target);
+    var targetPosition = target.getBoundingClientRect().top;
+    var startPosition = window.pageYOffset;
+    var distance = targetPosition - startPosition;
+    var startTime = null;
+    function animation(currentTime){
+        if (startTime === null) startTime = currentTime;
+        var timeElapsed = currentTime - startTime;
+        var run = ease(timeElapsed, startPosition, distance, duration);
+        window.scrollTo(0, run);
+        if(timeElapsed < duration) requestAnimationFrame(animation);
+    }
+
+    function ease(t, b, c, d){
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t + b;
+        t--;
+        return -c / 2 * (t * (t - 2) - 1) + b;
+    }
+
+    requestAnimationFrame(animation);
+}
+
+var section1 = document.querySelector(".section1");
+
+section1.addEventListener("click", function(){
+    smoothScroll(".section2", 1000);
+});
+
+
+</script>
+
+
+
+
+
 </body>
 </html>
