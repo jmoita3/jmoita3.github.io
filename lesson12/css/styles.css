@@ -702,11 +702,9 @@ footer {
     grid-row: 2/3;
   }
   .temples-wrapper .weathertowns p:nth-child(6) {
-    background-color: yellow;
     grid-column: 3/5;
   }
   .temples-wrapper .weathertowns p:nth-child(8) {
-    background-color: pink;
     grid-column: 2/4;
     grid-row: 4/5;
   }
@@ -717,11 +715,9 @@ footer {
     grid-column: 4/5;
   }
   .temples-wrapper .weathertowns section:nth-child(5) {
-    background-color: yellow;
     grid-column: 2/3;
   }
   .temples-wrapper .weathertowns section:nth-child(7) {
-    background-color: pink;
     grid-column: 4/5;
   }
   .temples-wrapper .weathertowns section:nth-child(7) {

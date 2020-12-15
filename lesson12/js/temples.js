@@ -18,11 +18,15 @@ window.addEventListener("load", (event)=>{
         let templeSummary2 = document.createElement('p');
         let templePhone = document.createElement('p');
         let templeMail = document.createElement('p');
-        let templeHistory = document.createElement('p');
+        let templeHistory = document.createElement('h3');
         let templeHistory1 = document.createElement('p');
         let templeHistory2 = document.createElement('p');
         let templeHistory3 = document.createElement('p');
-        let templerain = document.createElement('p');
+        let templeServices = document.createElement('h3');
+        let templeServices1 = document.createElement('p');
+        let templeServices2 = document.createElement('p');
+        let templeServices3 = document.createElement('p');
+        let templeServices4 = document.createElement('p');
         let templeOrdinance = document.createElement('p');
         let templeSummary = document.createElement('p');
 
@@ -41,7 +45,11 @@ window.addEventListener("load", (event)=>{
         templeHistory1.textContent = temples[i].history[0];
         templeHistory2.textContent = temples[i].history[1];
         templeHistory3.textContent = temples[i].history[2];
-        templerain.textContent = "Services: " + temples[i].services[1];
+        templeServices.textContent = "Services: ";
+        templeServices1.textContent = temples[i].services[0];
+        templeServices2.textContent = temples[i].services[1];
+        templeServices3.textContent = temples[i].services[2];
+        templeServices4.textContent = temples[i].services[3];
         templeOrdinance.textContent = "Ordinances: " + temples[i].ordinance;
         templeSummary.textContent = temples[i].address[0] + ", " + temples[i].address[1] + ", " + temples[i].address[2] + ", " + temples[i].address[3];
       
@@ -53,7 +61,11 @@ window.addEventListener("load", (event)=>{
         templeSummary.appendChild(templeHistory1);
         templeSummary.appendChild(templeHistory2);
         templeSummary.appendChild(templeHistory3);
-        templeSummary.appendChild(templerain);
+        templeSummary.appendChild(templeServices);
+        templeSummary.appendChild(templeServices1);
+        templeSummary.appendChild(templeServices2);
+        templeSummary.appendChild(templeServices3);
+        templeSummary.appendChild(templeServices4);
         templeSummary.appendChild(templeOrdinance);
         back.appendChild(link);
         templeinfo.appendChild(front);

@@ -19,7 +19,7 @@
         "ordinance":"Tuesday - Saturday, 7am - 8pm",
         "session":"Tuesday - Saturday, 7am - 8pm",
         "closure":"8pm Tuesday - Saturday",
-        "summary":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple."
+        "summary":"Nestled in the beautiful Oakland Hills, the Oakland Temple is considered by many to be the Beacon of the Bay. Others refer to it as the Crown Jewel of the East Bay. Its beauty can be seen from miles away. The temple stands as a beacon of hope, a standard of truth, and a source of strength for residents in the area."
       },
       {
         "name": "San Diego",
@@ -33,9 +33,9 @@
           "Distribution center nearby"
         ],
         "history": [
-          "23 January 1961: Announced",
-          "26 May 1962: Groundbreaking",
-          "17 November 1964: Dedicated"
+          "7 April 1984: Announced",
+          "27 February 1988: Groundbreaking",
+          "25 April 1993: Dedicated"
         ],
         "ordinance":"Tuesday - Saturday, 7am - 8pm",
         "session":"Tuesday - Saturday, 7am - 8pm",
@@ -44,8 +44,8 @@
     },
       {
         "name": "Los Angeles",
-        "address": ["4770 Lincoln Ave", "Oakland", "CA", "94602"],
-        "telephone": "(510)531-3200",
+        "address": ["10777 Santa Monica Blvd", "Los Angeles", "CA", "90025"],
+        "telephone": "(310)474-5569",
         "email": "N/A",
         "services": [
           "Clothing rental available",
@@ -54,9 +54,9 @@
           "Distribution center nearby"
         ],
         "history": [
-          "23 January 1961: Announced",
-          "26 May 1962: Groundbreaking",
-          "17 November 1964: Dedicated"
+          "6 March 1937: Announced",
+          "22 September 1951: Groundbreaking",
+          "11 March 1956: Dedicated"
         ],
         "ordinance":"Tuesday - Saturday, 7am - 8pm",
         "session":"Tuesday - Saturday, 7am - 8pm",
@@ -65,8 +65,8 @@
     },
       {
         "name": "Redlands",
-        "address": ["4770 Lincoln Ave", "Oakland", "CA", "94602"],
-        "telephone": "(510)531-3200",
+        "address": ["1761 Fifth Ave", "Redlands", "CA", "92374"],
+        "telephone": "(909)389-7369",
         "email": "N/A",
         "services": [
           "Clothing rental available",
@@ -75,9 +75,9 @@
           "Distribution center nearby"
         ],
         "history": [
-          "23 January 1961: Announced",
-          "26 May 1962: Groundbreaking",
-          "17 November 1964: Dedicated"
+          "21 April 2001: Announced",
+          "1 December 2001: Groundbreaking",
+          "14 September 2003: Dedicated"
         ],
         "ordinance":"Tuesday - Saturday, 7am - 8pm",
         "session":"Tuesday - Saturday, 7am - 8pm",
