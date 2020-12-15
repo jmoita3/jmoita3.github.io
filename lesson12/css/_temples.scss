@@ -5,22 +5,6 @@
      font-weight: 200;
      font-size: 45px;
  }
- .weathertowns p:nth-child(2){
-}
-.weathertowns p:nth-child(4){
-}
-.weathertowns p:nth-child(6){
-}
-.weathertowns p:nth-child(8){
-}
-.weathertowns section:nth-child(1){
-}
-.weathertowns section:nth-child(3){
-}
-.weathertowns section:nth-child(5){
-}
-.weathertowns section:nth-child(7){
-}
  .temples-wrapper{ 
     .weathertowns{
         margin: 0 auto;
@@ -29,7 +13,7 @@
         perspective: 1500px;
         -moz-perspective: 1500px;
         position: relative;
-        height: 600px;
+        height: 500px;
         max-width: 80%;
     }
     .weathertowns div{
@@ -39,7 +23,7 @@
         left:0;
         backface-visibility: hidden;
         z-index: 1;
-        height: 600px;
+        height: 500px;
         border-radius: 3px;
         box-shadow: $shadow;
     }
@@ -99,23 +83,47 @@
 
 
     @media screen and (min-width:800px){
-
-        .weathertowns{
+       .weathertowns{
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 5% minmax(400px,40%) auto minmax(400px,40%) auto;
             grid-gap: 5%;
         }
+        .weathertowns p:nth-child(2){
+            grid-column: 3/5;
+        }
         .weathertowns p:nth-child(4){
-            grid-column: 1/2;
+            background-color: red;
+            grid-column: 2/4;
             grid-row: 2/3;
         }
+        .weathertowns p:nth-child(6){
+            background-color: yellow;
+            grid-column: 3/5;
+        }
         .weathertowns p:nth-child(8){
-            grid-column: 1/2;
+            background-color: pink;
+            grid-column: 2/4;
             grid-row: 4/5;
+        }
+        .weathertowns section:nth-child(1){
+            grid-column: 2/3;
+        }
+        .weathertowns section:nth-child(3){
+            background-color: red;
+            grid-column: 4/5;
+        }
+        .weathertowns section:nth-child(5){
+            background-color: yellow;
+            grid-column: 2/3;
+        }
+        .weathertowns section:nth-child(7){
+            background-color: pink;
+            grid-column: 4/5;
         }
         .weathertowns section:nth-child(7){
             margin-bottom: 300px;
         }
+
     }
 
     @media screen and (max-width:800px){
