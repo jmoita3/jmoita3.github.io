@@ -100,8 +100,10 @@
     max-width: 90%;
     margin-left: 5%;
     margin-right: 2%;
-    select{
-        width: 25%;
-        height: 35px;
-    }
+}
+.submitBtn{
+    grid-column: 1/2;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 2%;
 }
