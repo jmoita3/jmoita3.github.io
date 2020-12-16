@@ -835,9 +835,37 @@ footer {
   height: 35px;
 }
 
-.location-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+@media screen and (min-width: 800px) {
+  .location-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .location-wrapper p {
+    margin-top: -88px;
+    grid-column: 2/3;
+  }
+  .location-wrapper .top {
+    margin-top: -40px;
+    grid-column: 2/3;
+  }
+}
+.room-wrapper {
+  margin-top: 25px;
+  grid-column: 1/2;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+.accomodations {
+  grid-column: 1/2;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+.accomodations select {
+  width: 25%;
+  height: 35px;
 }
 
 /*# sourceMappingURL=styles.css.map */
