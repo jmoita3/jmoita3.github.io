@@ -542,6 +542,10 @@ p {
   line-height: 32px;
 }
 
+textarea {
+  resize: none;
+}
+
 footer {
   background-color: #072638;
   margin-top: 250px;

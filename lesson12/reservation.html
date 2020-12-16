@@ -38,80 +38,54 @@
     </div>
 </header>
 <main>
-    <div id="hero">
-
-    </div>
-<div class="home-hero-wrapper">
-    
-    <div class="home-header">
-        <div class="spacer">
-           .
-        </div>
-        <h2 class="welcome">
-            Welcome to
-        </h2>
-        <h1 class="TempleInnText">
-            Temple Inn <br>& Suites
-        </h1>
-        <p class="main-subtitle">
-            An amazing adventure awaits you.<br> Get started below and join us.
-        </p>
-            <div class="button-wrapper">
-                <a href="reservation.html" class="homebtn"><p>Book now!</p></a>
-            </div>
-    </div>
-</div>
 
 
 
 
-
-<script type="text/javascript">
-
-</script>
+    <form method="GET" action="thanks.html">
+        <fieldset class="firstfield">
 
 
 
-<div class="home-content">
-    <div class="home-subtitle">
-        <h2>
-            Learn more about temple work and enjoy your stay with us. You will surely not regret it.
-        </h2>
-    </div>
-    <div class="oakland-temple-section">
-        <div class="oakland-image-wrapper" id="oakland">
-    
-        </div>
-        <div class="oakland-text">
-            <h3>
-                Why we are different
-            </h3>
-            <p>
-                The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world.
-            </p>
-        </div>
-    </div>
+            <p>Location</p><label class="top">
+                <select name="region">
+                    <option value="" disabled>Select Region... &#9662;</option>
+                    <option value="2">Oakland</option>
+                    <option value="3">San Diego</option>
+                    <option value="4">Los Angeles</option>
+                    <option value="5">Redlands</option>
+                  </select>
+                </label>
 
-    <div class="fountain-section">
-        <div class="fountain-image-wrapper" id="fountain">
-    
-        </div>
-        <div class="fountain-text">
-            <h3>
-                Come join us
-            </h3>
-            <p>
-                The owner-operated company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons. The hotel accommodations and services are available to anyone willing to abide by the terms and policies outlined by the company. 
-            </p>
-        </div>
-    </div>
-   <div class="reservation-contact">
-       <h2>
-           Ready to make a reservation?
-       </h2>
-       <p>Click <a href="reservation.html">here</a> to get started</p>
-   </div>
-</div>
+
+
+
+            <legend>
+                CONTACT INFO
+            </legend>
+            <p>First Name*</p><label class="top"><input type="text" name="fname" required></label>
+            <p>Last Name*</p><label class="top"><input type="text" name="Lname" required></label>
+            <p>Email*</p><label class="top"><input type="email" name="email" placeholder="someone@email.com" required></label>
+            <p>Phone</p><label class="top"><input type="tel" name="phone" placeholder="1235551234"></label>
+            <p>Check in</p><label class="top"> <input type="date" name="stormdate"></label>     
+            <p>Check out</p><label class="top"> <input type="date" name="stormdate"></label>    
+
+            <div>Room type</div>
+            <label class="sbs" class="choice"><input type="radio" name="audience" value="choice">Single</label>
+            <label class="sbs" class="choice"><input type="radio" name="audience" value="choice">Double</label>
+            <label class="sbs" class="choice"><input type="radio" name="audience" value="choice">Premium</label>
+        
+            <label class="top"><p>Special accomodations</p><textarea id="story" name="story"
+                rows="15" cols="33" placeholder="It was a dark and stormy night...">
+        
+        </textarea></label>
+        
+        
+
+        <input type="submit" value="Book it!" class="submitBtn btn">
+    </fieldset>
+        </form>
+
 
 
 </main>
