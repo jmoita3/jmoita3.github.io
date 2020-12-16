@@ -824,4 +824,20 @@ footer {
   width: 90%;
 }
 
+.location-wrapper {
+  grid-column: 1/2;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+.location-wrapper select {
+  width: 25%;
+  height: 35px;
+}
+
+.location-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 /*# sourceMappingURL=styles.css.map */
