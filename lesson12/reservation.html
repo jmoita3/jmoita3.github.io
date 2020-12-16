@@ -42,11 +42,27 @@
 
 
 
-    <form method="GET" action="thanks.html">
+    <form method="GET" action="thanks.html" class="reservation-form">
         <fieldset class="firstfield">
 
 
 
+
+            <legend>
+                CONTACT INFO
+            </legend>
+            <div class="contact">
+                <div class="name-wrapper">
+                    <p>Name*</p><label class="top"><input type="text" name="fname" placeholder="first" required></label>
+                <label class="top"><input type="text" name="Lname" placeholder="last" required></label>
+                </div>
+                <div class="email-wrapper">
+                    <p>Email*</p><label class="top"><input type="email" name="email" placeholder="someone@email.com" required></label>
+                </div>
+                <p>Phone</p><label class="top"><input type="tel" name="phone" placeholder="1235551234"></label>
+                <p>Check in</p><label class="top"> <input type="date" name="stormdate"></label>     
+                <p>Check out</p><label class="top"> <input type="date" name="stormdate"></label>    
+            </div>  
             <p>Location</p><label class="top">
                 <select name="region">
                     <option value="" disabled>Select Region... &#9662;</option>
@@ -56,20 +72,6 @@
                     <option value="5">Redlands</option>
                   </select>
                 </label>
-
-
-
-
-            <legend>
-                CONTACT INFO
-            </legend>
-            <p>First Name*</p><label class="top"><input type="text" name="fname" required></label>
-            <p>Last Name*</p><label class="top"><input type="text" name="Lname" required></label>
-            <p>Email*</p><label class="top"><input type="email" name="email" placeholder="someone@email.com" required></label>
-            <p>Phone</p><label class="top"><input type="tel" name="phone" placeholder="1235551234"></label>
-            <p>Check in</p><label class="top"> <input type="date" name="stormdate"></label>     
-            <p>Check out</p><label class="top"> <input type="date" name="stormdate"></label>    
-
             <div>Room type</div>
             <label class="sbs" class="choice"><input type="radio" name="audience" value="choice">Single</label>
             <label class="sbs" class="choice"><input type="radio" name="audience" value="choice">Double</label>

@@ -751,4 +751,39 @@ footer {
   }
 }
 
+.reservation-form {
+  max-width: 960px;
+  margin: 300px auto;
+}
+
+.reservation-form .contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.name-wrapper {
+  max-width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  grid-column: 1/5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.name-wrapper label:nth-child(3) {
+  grid-column: 2/3;
+}
+.name-wrapper label:nth-child(2) {
+  grid-column: 1/2;
+}
+.name-wrapper input {
+  width: 100%;
+}
+
+.email-wrapper {
+  max-width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 /*# sourceMappingURL=styles.css.map */

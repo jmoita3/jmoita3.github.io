@@ -35,7 +35,7 @@ window.addEventListener("load", (event)=>{
         let linktext = document.createTextNode("Book Appointment");
         link.appendChild(linktext);
         link.title = "Book Appointment";
-        link.href = "#"
+        link.href = "reservation.html"
         link.className = "firstlink";
 
         templename.textContent = temples[i].name;
